@@ -1,0 +1,43 @@
+#+TITLE: ICCSA PAPER
+#+AUTHOR: Anderson M. Maliszewski
+#+STARTUP: overview indent
+#+TAGS: noexport(n) deprecated(d)
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+This repository has the experiments for *The International Conference
+On Computational Science and its Applications (ICCSA 2020) paper.* Below
+are the files and folders, along with the analysis environment. More
+details on how to reproduce the experiments are in [[LabBook.org]].
+
+#+BEGIN_QUOTE
+*Reporting errors*: This repository has several links to self-contained
+ files as well as links from the Internet, so if you try to reproduce
+ it and find broken links or other problems, please tell me everything
+ so that I can improve it. :)
+#+END_QUOTE
+
+
+* Folders and Files Description
+- [[R]] - This folder has all the graphics with the results.
+- [[RESULTS]] - Here are seven individual folder, each one representing a
+  number of NICs and hash policy, with their corresponding
+  results. Inside these folders are the logs and machine files used.
+- [[SH]] - In this folder are shell scripts used to perform the
+  evaluation.
+- [[LabBook.org]] - In this file the results are analysed and the
+  graphical analysis is made.
+
+* Analysis Environment 
+Some specific softwares are required to reproduce this evaluation
+accurately. They are Emacs and Org, and both are used as project
+management tools to track, record all information, and generate
+graphics using R code blocks.
+ 
+* References
++ R. Jain, [[http://www.cs.wustl.edu/~jain/books/perfbook.htm][The Art of Computer Systems Performance Analysis:
+  Techniques for Experimental Design, Measurement, Simulation, and
+  Modeling]], Wiley-Interscience, New York, NY, April 1991.
++ Legrand. Arnaud, Schnorr. Lucas, [[https://github.com/alegrand/SMPE.git][Scientific Methodology and
+  Performance Evaluation for Computer Scientists]], GitHub Repository.

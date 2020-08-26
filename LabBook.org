@@ -1,0 +1,363 @@
+#+TITLE: LabBook
+#+AUTHOR: Anderson Mattheus Maliszewski
+#+STARTUP: overview indent
+#+TAGS: noexport(n) deprecated(d) 
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+This LabBook is for the *The International Conference On Computational
+Science and its Applications (ICCSA 2020)* paper and has a wealth of
+informations about the entire process used during the proposed
+experiments. To reproduce this evaluation, you can follow the steps
+below. Have fun!
+
+* Experimental Project
+** Graphical Analysis
+*** Read CSVs
+#+begin_src R :results output :session *R* :exports both
+options(crayon.enabled=FALSE)
+suppressMessages(library("tidyverse"));
+df_apps_RegularTCP <- read_csv("/home/anderson/Desktop/GIT/lacp-cloud-experiments/4nodes/RegularTCP-1NIC/LOGS/apps_exec.18-05-2020.03h41m53s.csv", progress=FALSE)
+df_apps_4NICs_layer3_4 <- read_csv("/home/anderson/Desktop/GIT/lacp-cloud-experiments/4nodes/802.3ad-4NICs-layer3+4/LOGS/apps_exec.01-05-2020.21h56m14s.csv", progress=FALSE)
+df_apps_4NICs_layer2_3 <- read_csv("/home/anderson/Desktop/GIT/lacp-cloud-experiments/4nodes/802.3ad-4NICs-layer2+3/LOGS/apps_exec.18-05-2020.20h13m05s.csv", progress=FALSE)
+df_apps_4NICs_layer2 <- read_csv("/home/anderson/Desktop/GIT/lacp-cloud-experiments/4nodes/802.3ad-4NICs-layer2/LOGS/apps_exec.18-05-2020.13h49m40s.csv", progress=FALSE)
+df_apps_2NICs_layer3_4 <- read_csv("/home/anderson/Desktop/GIT/lacp-cloud-experiments/4nodes/802.3ad-2NICs-layer3+4/LOGS/apps_exec.02-05-2020.17h13m12s.csv", progress=FALSE)
+df_apps_2NICs_layer2_3 <- read_csv("/home/anderson/Desktop/GIT/lacp-cloud-experiments/4nodes/802.3ad-2NICs-layer2+3/LOGS/apps_exec.17-05-2020.19h17m23s.csv", progress=FALSE)
+df_apps_2NICs_layer2 <- read_csv("/home/anderson/Desktop/GIT/lacp-cloud-experiments/4nodes/802.3ad-2NICs-layer2/LOGS/apps_exec.17-05-2020.14h11m57s.csv", progress=FALSE)
+df_apps=bind_rows(df_apps_RegularTCP,df_apps_4NICs_layer3_4,df_apps_4NICs_layer2_3,df_apps_4NICs_layer2,df_apps_2NICs_layer3_4,df_apps_2NICs_layer2_3, df_apps_2NICs_layer2)
+df_apps$apps=toupper(df_apps$apps)
+
+df_apps %>%
+  group_by(apps,bondmode) %>%
+  summarise(
+    average=mean(time),
+    std=sd(time),
+    ste=3*std/sqrt(n()),
+    N=n()) %>%
+  arrange(apps,bondmode) -> df_apps
+df_apps
+
+
+#+end_src
+
+#+RESULTS:
+#+begin_example
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  time = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  time = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  time = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  time = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  time = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  time = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  time = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  bytes = col_double(),
+  time = col_double(),
+  `mbytes-sec` = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  bytes = col_double(),
+  time = col_double(),
+  `mbytes-sec` = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  bytes = col_double(),
+  time = col_double(),
+  `mbytes-sec` = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  bytes = col_double(),
+  time = col_double(),
+  `mbytes-sec` = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  bytes = col_double(),
+  time = col_double(),
+  `mbytes-sec` = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  bytes = col_double(),
+  time = col_double(),
+  `mbytes-sec` = col_double()
+)
+
+Parsed with column specification:
+cols(
+  apps = col_character(),
+  bondmode = col_character(),
+  bytes = col_double(),
+  time = col_double(),
+  `mbytes-sec` = col_double()
+)
+
+# A tibble: 28 x 6
+# Groups:   apps [4]
+   apps  bondmode               average    std    ste     N
+   <
+<
+                   <
+ <
+ <
+<int>
+ 1 BT    802.3ad-2NICs-layer2     144.   0.906 0.496     30
+ 2 BT    802.3ad-2NICs-layer2+3   152.  10.4   5.72      30
+ 3 BT    802.3ad-2NICs-layer3+4   160.   2.11  1.15      30
+ 4 BT    802.3ad-4NICs-layer2     134.   0.449 0.246     30
+ 5 BT    802.3ad-4NICs-layer2+3   142.   0.650 0.356     30
+ 6 BT    802.3ad-4NICs-layer3+4   143.   1.39  0.764     30
+ 7 BT    RegularTCP               151.   0.995 0.545     30
+ 8 FT    802.3ad-2NICs-layer2      81.4  0.174 0.0955    30
+ 9 FT    802.3ad-2NICs-layer2+3    98.5  5.88  3.22      30
+10 FT    802.3ad-2NICs-layer3+4    90.6  0.513 0.281     30
+# … with 18 more rows
+
+# A tibble: 161 x 6
+# Groups:   bytes [23]
+   bytes bondmode               average   std   ste     N
+   <
+<
+                   <
+<
+<
+<int>
+ 1     1 802.3ad-2NICs-layer2      26.3 0.402 0.220    30
+ 2     1 802.3ad-2NICs-layer2+3    25.6 1.36  0.745    30
+ 3     1 802.3ad-2NICs-layer3+4    26.3 0.459 0.252    30
+ 4     1 802.3ad-4NICs-layer2      26.3 0.532 0.291    30
+ 5     1 802.3ad-4NICs-layer2+3    26.0 0.356 0.195    30
+ 6     1 802.3ad-4NICs-layer3+4    26.1 0.442 0.242    30
+ 7     1 RegularTCP                26.3 0.456 0.250    30
+ 8     2 802.3ad-2NICs-layer2      26.0 1.31  0.718    30
+ 9     2 802.3ad-2NICs-layer2+3    25.6 1.36  0.743    30
+10     2 802.3ad-2NICs-layer3+4    26.3 0.330 0.181    30
+# … with 151 more rows
+
+# A tibble: 161 x 6
+# Groups:   bytes [23]
+   bytes bondmode                 average        std        ste     N
+   <
+<
+                     <
+     <
+     <
+<int>
+ 1     1 802.3ad-2NICs-layer2   0.00004   0          0             30
+ 2     1 802.3ad-2NICs-layer2+3 0.0000403 0.00000183 0.000001      30
+ 3     1 802.3ad-2NICs-layer3+4 0.00004   0          0             30
+ 4     1 802.3ad-4NICs-layer2   0.00004   0          0             30
+ 5     1 802.3ad-4NICs-layer2+3 0.00004   0          0             30
+ 6     1 802.3ad-4NICs-layer3+4 0.00004   0          0             30
+ 7     1 RegularTCP             0.00004   0          0             30
+ 8     2 802.3ad-2NICs-layer2   0.0000793 0.00000521 0.00000285    30
+ 9     2 802.3ad-2NICs-layer2+3 0.0000807 0.00000583 0.00000319    30
+10     2 802.3ad-2NICs-layer3+4 0.0000783 0.00000379 0.00000208    30
+# … with 151 more rows
+#+end_example
+*** BT
+#+begin_src R :results output graphics :file  R/PLOTS/BT.pdf :exports both :width 1.8 :height 2.3 :session *R* 
+df_apps$bondmode <- factor(df_apps$bondmode,levels = c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"))
+            ggplot(df_apps[df_apps$apps %in% c("BT"), ], aes(x=apps, y=average, fill=bondmode)) +
+              geom_bar(stat="identity", position = "dodge",  colour="black",size=0,width = 1) +
+              geom_errorbar(aes(ymin=average-ste, ymax=average+ste), width=0.4, position = position_dodge(1)) +
+              theme_bw(base_size=10) +
+              scale_fill_manual(values=c("#B7B2AF", "#005b9e", "#79c45a", "#337cb1", "#94d07b", "#669dc5", "#afdc9c"),
+                         breaks=c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"),
+                        labels=c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4")) +
+               theme(legend.position = "none", 
+                    plot.margin = unit(x = c(0.1, 0.1, -0.2, 0), units = "cm"),
+                    legend.margin=margin(c(0, 0, -8, 0)),
+                    axis.text.x = element_text(color = "black"),
+                    axis.text.y = element_text(color = "black"),
+                    axis.title=element_text(size=10), 
+                    legend.title = element_blank(),
+                    legend.text = element_text(color = "black", size = 10)) +
+              labs(y="Execution Time [s]",
+                   x=element_blank())
+
+#+end_src
+
+#+RESULTS:
+[[file:R/PLOTS/BT.pdf]]
+*** SP
+#+begin_src R :results output graphics :file  R/PLOTS/SP.pdf :exports both :width 1.8 :height 2.3 :session *R* 
+df_apps$bondmode <- factor(df_apps$bondmode,levels = c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"))
+            ggplot(df_apps[df_apps$apps %in% c("SP"), ], aes(x=apps, y=average, fill=bondmode)) +
+              geom_bar(stat="identity", position = "dodge",  colour="black",size=0,width = 1) +
+              geom_errorbar(aes(ymin=average-ste, ymax=average+ste), width=0.4, position = position_dodge(1)) +
+              theme_bw(base_size=10) +
+              scale_fill_manual(values=c("#B7B2AF", "#005b9e", "#79c45a", "#337cb1", "#94d07b", "#669dc5", "#afdc9c"),
+                                breaks=c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"),
+                        labels=c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4")) +
+               theme(legend.position = "none", 
+                   plot.margin = unit(x = c(0.1, 0.1, -0.2, 0), units = "cm"),
+                    legend.margin=margin(c(0, 0, -8, 0)),
+                    axis.text.x = element_text(color = "black"),
+                    axis.text.y = element_text(color = "black"),
+                    axis.title=element_text(size=10), 
+                    legend.title = element_blank(),
+                    legend.text = element_text(color = "black", size = 10)) +
+              labs(y="Execution Time [s]",
+                   x=element_blank())
+
+#+end_src
+
+#+RESULTS:
+[[file:R/PLOTS/SP.pdf]]
+
+*** IS
+#+begin_src R :results output graphics :file  R/PLOTS/IS.pdf :exports both :width 1.8 :height 2.3 :session *R* 
+df_apps$bondmode <- factor(df_apps$bondmode,levels = c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"))
+            ggplot(df_apps[df_apps$apps %in% c("IS"), ], aes(x=apps, y=average, fill=bondmode)) +
+              geom_bar(stat="identity", position = "dodge",  colour="black",size=0,width = 1) +
+              geom_errorbar(aes(ymin=average-ste, ymax=average+ste), width=0.4, position = position_dodge(1)) +
+              theme_bw(base_size=10) +
+              scale_fill_manual(values=c("#B7B2AF", "#005b9e", "#79c45a", "#337cb1", "#94d07b", "#669dc5", "#afdc9c"),
+                         breaks=c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"),
+                        labels=c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4")) +
+               theme(legend.position = "none", 
+                    plot.margin = unit(x = c(0.1, 0.1, -0.2, 0), units = "cm"),
+                    legend.margin=margin(c(0, 0, -8, 0)),
+                    axis.text.x = element_text(color = "black"),
+                    axis.text.y = element_text(color = "black"),
+                    axis.title=element_text(size=10), 
+                    legend.title = element_blank(),
+                    legend.text = element_text(color = "black", size = 10)) +
+              labs(y="Execution Time [s]",
+                   x=element_blank())
+
+#+end_src
+
+#+RESULTS:
+[[file:R/PLOTS/IS.pdf]]
+
+*** FT
+#+begin_src R :results output graphics :file  R/PLOTS/FT.pdf :exports both :width 1.8 :height 2.3 :session *R* 
+ df_apps$bondmode <- factor(df_apps$bondmode,levels = c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"))
+            ggplot(df_apps[df_apps$apps %in% c("FT"), ], aes(x=apps, y=average, fill=bondmode)) +
+              geom_bar(stat="identity", position = "dodge",  colour="black",size=0,width = 1) +
+              geom_errorbar(aes(ymin=average-ste, ymax=average+ste), width=0.4, position = position_dodge(1)) +
+              theme_bw(base_size=10) +
+              scale_fill_manual(values=c("#B7B2AF", "#005b9e", "#79c45a", "#337cb1", "#94d07b", "#669dc5", "#afdc9c"),
+                         breaks=c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"),
+                        labels=c("RegularTCP", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4")) +
+               theme(legend.position = "none", 
+                   plot.margin = unit(x = c(0.1, 0.1, -0.2, 0), units = "cm"),
+                    legend.margin=margin(c(0, 0, -8, 0)),
+                    axis.text.x = element_text(color = "black"),
+                    axis.text.y = element_text(color = "black"),
+                    axis.title=element_text(size=10), 
+                    legend.title = element_blank(),
+                    legend.text = element_text(color = "black", size = 10)) +
+              labs(y="Execution Time [s]",
+                   x=element_blank())
+
+#+end_src
+#+RESULTS:
+[[file:R/PLOTS/FT.pdf]]
+
+*** Legend
+#+begin_src R :results output graphics :file  R/PLOTS/Legend.pdf :exports both :width 1.8 :height 4 :session *R* 
+options(crayon.enabled=FALSE)
+suppressMessages(library("ggplot2"));
+suppressMessages(library("grid"));
+suppressMessages(library("gridExtra"));
+my_hist <- ggplot(df_apps, aes(apps, fill=bondmode)) +
+geom_bar()
+theme(legend.position = "top",
+legend <- cowplot::get_legend(my_hist),
+grid.newpage(),
+grid.draw(legend)) 
+#+end_src
+
+#+RESULTS:
+[[file:R/PLOTS/Legend.pdf]]
+*** Legend 1
+#+begin_src R :results output graphics :file  R/PLOTS/Legend1.pdf :exports both :width 11 :height 4 :session *R* 
+df_apps$bondmode <- factor(df_apps$bondmode,levels = c("RegularTCP-1NIC", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"))
+            ggplot(df_apps[df_apps$apps %in% c("BT"), ], aes(x=apps, y=average, fill=bondmode)) +
+              geom_bar(stat="identity", position = "dodge",  colour="black",size=0.3,width = 1) +
+              geom_errorbar(aes(ymin=average-ste, ymax=average+ste), width=0.5, position = position_dodge(1)) +
+              theme_bw(base_size=12) +
+              scale_fill_manual(values=c("#B7B2AF", "#005b9e", "#79c45a", "#337cb1", "#94d07b", "#669dc5", "#afdc9c"),
+                         breaks=c("RegularTCP-1NIC", "802.3ad-2NICs-layer2", "802.3ad-4NICs-layer2", "802.3ad-2NICs-layer2+3", "802.3ad-4NICs-layer2+3", "802.3ad-2NICs-layer3+4", "802.3ad-4NICs-layer3+4"),
+                        labels=c("Regular TCP 1NIC", "802.3ad-2NICs Layer2", "802.3ad-4NICs Layer2", "802.3ad-2NICs Layer2+3", "802.3ad-4NICs Layer2+3", "802.3ad-2NICs Layer3+4", "802.3ad-4NICs Layer3+4")) +
+               theme(legend.position = "top", 
+                    plot.margin = unit(x = c(0, 0.01, -0.3, -0.25), units = "cm"),
+                    #legend.margin=margin(c(0, 0, -8, 0)),
+                    axis.text.x = element_text(size =14, color = "black"),
+                    axis.text.y = element_text(size =14, color = "black"),
+                    axis.title=element_text(size=14), 
+                    legend.title = element_blank(),
+                    legend.text = element_text(color = "black", size = 14)) +
+              labs(y=element_blank(),
+                   x=element_blank())
+#+end_src
+
+#+RESULTS:
+[[file:R/PLOTS/Legend1.pdf]]
