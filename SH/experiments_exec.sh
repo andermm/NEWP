@@ -14,7 +14,7 @@ LOGS_DOWNLOAD=$LOGS/LOGS_DOWNLOAD
 LOGS_BACKUP_SRC_CODE=$LOGS/LOGS_BACKUP_SRC_CODE
 
 #NPB Variables
-NPBE=NPB3.4
+NPBE=NPB3.4.1
 APP_BIN_NPBE=$NPBE/NPB3.4-MPI/bin
 APP_CONFIG_NPBE=$NPBE/NPB3.4-MPI/config
 APP_COMPILE_NPBE=$NPBE/NPB3.4-MPI
@@ -86,21 +86,21 @@ make metis4; make
 #######################################NPB##################################################
 #Exec
 cd $BENCHMARKS
-wget -c https://www.nas.nasa.gov/assets/npb/NPB3.4.tar.gz -S -a $LOGS_DOWNLOAD/NPB3.4_$INSTANCE.download.log
-cp -r NPB3.4.tar.gz $LOGS_BACKUP_SRC_CODE; mv $LOGS_BACKUP_SRC_CODE/NPB3.4.tar.gz $LOGS_BACKUP_SRC_CODE/NPB3.4_$INSTANCE.tar.gz
-tar -xzf NPB3.4.tar.gz
-rm -rf NPB3.4.tar.gz
+wget -c https://www.nas.nasa.gov/assets/npb/NPB3.4.1.tar.gz -S -a $LOGS_DOWNLOAD/NPB3.4.1_$INSTANCE.download.log
+cp -r NPB3.4.1.tar.gz $LOGS_BACKUP_SRC_CODE; mv $LOGS_BACKUP_SRC_CODE/NPB3.4.1.tar.gz $LOGS_BACKUP_SRC_CODE/NPB3.4.1_$INSTANCE.tar.gz
+tar -xzf NPB3.4.1.tar.gz
+rm -rf NPB3.4.1.tar.gz
 
 for f in $APP_CONFIG_NPBE/*.def.template; do
 	mv -- "$f" "${f%.def.template}.def"; 
 done
 
 sed -i 's,mpif90,mpifort,g' $APP_CONFIG_NPBE/make.def
-appsn=(bt sp is ft)
+appsn=(bt sp is ft ep cg mg lu)
 classes=(C)
 echo -n "" > $APP_CONFIG_NPBE/suite.def
 
-for (( n = 0; n < 4; n++ )); do
+for (( n = 0; n < 8; n++ )); do
 	for (( i = 0; i < 1; i++ )); do
 		echo -e ${appsn[n]}"\t"${classes[i]} >> $APP_CONFIG_NPBE/suite.def
 	done
@@ -129,7 +129,7 @@ PROJECT=$MACHINE_FILES/experimental_project.csv
 for (( i = 0; i < 30; i++ )); do
 	echo $appsi >> /tmp/expd
 	echo $appsa >> /tmp/expd
-	for (( n = 0; n < 4; n++ )); do
+	for (( n = 0; n < 8; n++ )); do
 		echo ${appsn[n]} >> /tmp/expd
 	done
 done
