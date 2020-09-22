@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------
+mpiexec was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/.C.x
+Node: ONE1
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+4 total processes failed to start
