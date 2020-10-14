@@ -95,19 +95,51 @@ do
 	runline+="2>> $LOGS/apps_exec_std_error "
 	runline+="&> >(tee -a $LOGS/LOGS_BACKUP/$apps.$BOND.log > /tmp/nas.out)"	
 
+#Create the Output to the other clusters
+	if [[ $apps == is && $number == 1 ]]; then
+		mkdir $HOME/exp/is_1
+
+	elif [[ $apps == ft && $number == 31 ]]; then
+		mkdir $HOME/exp/ft_31
+
+	elif [[ $apps == is && $number == 61 ]]; then
+		mkdir $HOME/exp/is_61
+
+	elif [[ $apps == ft && $number == 91 ]]; then
+		mkdir $HOME/exp/ft_91
+
+	elif [[ $apps == bt && $number == 121 ]]; then
+		mkdir $HOME/exp/bt_121
+
+	elif [[ $apps == sp && $number == 151 ]]; then
+		mkdir $HOME/exp/sp_151
+
+	elif [[ $apps == bt && $number == 181 ]]; then
+		mkdir $HOME/exp/bt_181
+	
+	elif [[ $apps == sp && $number == 211 ]]; then
+		mkdir $HOME/exp/sp_211
+
+	elif [[ $apps == bt && $number == 241 ]]; then
+		mkdir $HOME/exp/bt_241
+
+	elif [[ $apps == sp && $number == 271 ]]; then
+		mkdir $HOME/exp/sp_271
+
+	elif [[ $apps == bt && $number == 301 ]]; then
+		mkdir $HOME/exp/bt_301
+
+	elif [[ $apps == sp && $number == 331 ]]; then
+		mkdir $HOME/exp/sp_331
+
+	fi
+
 #Execute the experiments
 	echo "Executing >> $runline <<"
 	eval "$runline < /dev/null"
 	
 	TIME=`grep -i "Time in seconds" /tmp/nas.out | awk {'print $5'}`
 	echo "$apps,$BOND,$TIME" >> $OUTPUT_APPS_EXEC
-
-#Create the Output to the other clusters
-	
-
-
-
-
 
 	echo "Done!"
 done
