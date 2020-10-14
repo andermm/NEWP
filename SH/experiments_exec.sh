@@ -102,6 +102,13 @@ do
 	TIME=`grep -i "Time in seconds" /tmp/nas.out | awk {'print $5'}`
 	echo "$apps,$BOND,$TIME" >> $OUTPUT_APPS_EXEC
 
+#Create the Output to the other clusters
+	
+
+
+
+
+
 	echo "Done!"
 done
 sed -i '1s/^/apps,bondmode,time\n/' $OUTPUT_APPS_EXEC
