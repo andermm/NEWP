@@ -70,8 +70,19 @@ cd $APP_COMPILE_NPBE; make suite
 #############################################################################################################
 
 #Define the machine file and experimental project
-MACHINEFILE16=$MACHINE_FILES/nodes16
-MACHINEFILE64=$MACHINE_FILES/nodes64
+if [[ $HOSTNAME == LACP10 ]]; then
+	MACHINEFILE16=$MACHINE_FILES/nodes16_LACP10
+	MACHINEFILE64=$MACHINE_FILES/nodes64_LACP10
+elif [[ $HOSTNAME == LACP20  ]]; then
+	MACHINEFILE16=$MACHINE_FILES/nodes16_LACP20
+	MACHINEFILE64=$MACHINE_FILES/nodes64_LACP20
+elif [[ $HOSTNAME == LACP30  ]]; then
+	MACHINEFILE16=$MACHINE_FILES/nodes16_LACP30
+	MACHINEFILE64=$MACHINE_FILES/nodes64_LACP30
+elif [[ $HOSTNAME == LACP40  ]]; then
+	MACHINEFILE16=$MACHINE_FILES/nodes16_LACP40
+	MACHINEFILE64=$MACHINE_FILES/nodes64_LACP40
+fi
 PROJECT=$MACHINE_FILES/experimental_project.csv
 
 #############################################################################################################
