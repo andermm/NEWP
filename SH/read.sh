@@ -63,7 +63,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"is.C.x
 					done
@@ -74,7 +74,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"ft.C.x
 					done
@@ -85,7 +85,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"ft.C.x
 					done
@@ -95,7 +95,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"is.C.x
 					done
@@ -105,7 +105,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"is.C.x
 					done
@@ -115,7 +115,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"is.C.x
 					done
@@ -125,7 +125,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"ft.C.x
 					done
@@ -135,7 +135,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"ft.C.x
 					done
@@ -145,7 +145,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"bt.C.x
 					done
@@ -155,7 +155,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"sp.C.x
 					done
@@ -165,7 +165,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"sp.C.x
 					done
@@ -175,7 +175,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE16 \
 							"$BENCHMARKS/$APP_BIN_NPBE"bt.C.x
 					done
@@ -185,7 +185,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"is.C.x
 					done
@@ -196,7 +196,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"ft.C.x
 					done
@@ -207,7 +207,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"ft.C.x
 					done
@@ -217,7 +217,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"is.C.x
 					done
@@ -227,7 +227,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"is.C.x
 					done
@@ -237,7 +237,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"is.C.x
 					done
@@ -247,7 +247,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"ft.C.x
 					done
@@ -257,7 +257,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"ft.C.x
 					done
@@ -267,7 +267,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"bt.C.x
 					done
@@ -277,7 +277,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"sp.C.x
 					done
@@ -287,7 +287,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"sp.C.x
 					done
@@ -297,7 +297,7 @@ for (( p = 0; p < 2; p++ )); do
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
-							-np processesn \
+							-np $processesn \
 							-machinefile $MACHINEFILE64 \
 							"$BENCHMARKS/$APP_BIN_NPBE"bt.C.x
 					done
