@@ -12,6 +12,7 @@ LOGS=$BASE/LOGS
 MACHINE_FILES=$BASE/MACHINE_FILES
 LOGS_DOWNLOAD=$LOGS/LOGS_DOWNLOAD
 LOGS_BACKUP_SRC_CODE=$LOGS/LOGS_BACKUP_SRC_CODE
+DIR=$HOME/exp
 
 #NPB Variables
 NPBE=NPB3.4.1
@@ -23,17 +24,18 @@ APP_COMPILE_NPBE=$NPBE/NPB3.4-MPI
 BOND=802.3ad-4NICs-layer2
 START=`date +"%d-%m-%Y.%Hh%Mm%Ss"`
 OUTPUT_APPS_EXEC=$LOGS/apps_exec.$START.csv
+PARTITION=(LACP20 LACP30 LACP40)
 
 #############################################################################################################
 #######################Step 2: Create the Folders/Download and Compile the Programs##########################
 #############################################################################################################
 
-mkdir -p $BASE/LOGS/SYS_INFO
-mkdir -p $BENCHMARKS
-mkdir -p $LOGS
-mkdir -p $BASE/LOGS/LOGS_BACKUP
-mkdir -p $LOGS_DOWNLOAD
-mkdir -p $LOGS_BACKUP_SRC_CODE
+touch -p $BASE/LOGS/SYS_INFO
+touch -p $BENCHMARKS
+touch -p $LOGS
+touch -p $BASE/LOGS/LOGS_BACKUP
+touch -p $LOGS_DOWNLOAD
+touch -p $LOGS_BACKUP_SRC_CODE
 
 #############################################################################################################
 #################################Step 3: Collect the System Information######################################
@@ -68,7 +70,8 @@ cd $APP_COMPILE_NPBE; make suite
 #############################################################################################################
 
 #Define the machine file and experimental project
-MACHINEFILE=$MACHINE_FILES/nodes
+MACHINEFILE16=$MACHINE_FILES/nodes16
+MACHINEFILE64=$MACHINE_FILES/nodes64
 PROJECT=$MACHINE_FILES/experimental_project.csv
 
 #############################################################################################################
@@ -77,11 +80,11 @@ PROJECT=$MACHINE_FILES/experimental_project.csv
 
 #Read the experimental project
 tail -n +2 $PROJECT |
-while IFS=, read -r number apps 
+while IFS=, read -r number apps process
 do
 
 #Define a single key
-	KEY="$number-$apps"
+	KEY="$number-$apps-$process"
 	echo ""
 	echo $KEY
 	echo ""
@@ -89,52 +92,200 @@ do
 #Prepare the command for execution
 	runline=""
 	runline+="mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 "
-	PROCS=16
-	runline+="-np $PROCS -machinefile $MACHINEFILE "
+	
+	PROCS=$process
+	
+	runline+="-np $PROCS" 
+	
+	if [[ $process == 16 ]]; then
+	runline+=" -machinefile $MACHINEFILE16 "	
+	else
+	runline+=" -machinefile $MACHINEFILE64 "			
+	fi
+	
 	runline+="$BENCHMARKS/$APP_BIN_NPBE/$apps.C.x "
 	runline+="2>> $LOGS/apps_exec_std_error "
 	runline+="&> >(tee -a $LOGS/LOGS_BACKUP/$apps.$BOND.log > /tmp/nas.out)"	
 
 #Create the Output to the other clusters
 	if [[ $apps == is && $number == 1 ]]; then
-		mkdir $HOME/exp/is_1
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/is_1_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/is_1_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi			
+	fi
 
 	elif [[ $apps == ft && $number == 31 ]]; then
-		mkdir $HOME/exp/ft_31
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/ft_31_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/ft_31_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
 
 	elif [[ $apps == is && $number == 61 ]]; then
-		mkdir $HOME/exp/is_61
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/is_61_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/is_61_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
 
 	elif [[ $apps == ft && $number == 91 ]]; then
-		mkdir $HOME/exp/ft_91
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/ft_91_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/ft_91_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
 
 	elif [[ $apps == bt && $number == 121 ]]; then
-		mkdir $HOME/exp/bt_121
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/bt_121_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/bt_121_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
 
 	elif [[ $apps == sp && $number == 151 ]]; then
-		mkdir $HOME/exp/sp_151
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/sp_151_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/sp_151_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
 
 	elif [[ $apps == bt && $number == 181 ]]; then
-		mkdir $HOME/exp/bt_181
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/bt_181_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/bt_181_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
 	
 	elif [[ $apps == sp && $number == 211 ]]; then
-		mkdir $HOME/exp/sp_211
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/sp_211_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/sp_211_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
 
 	elif [[ $apps == bt && $number == 241 ]]; then
-		mkdir $HOME/exp/bt_241
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/bt_241_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/bt_241_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
 
 	elif [[ $apps == sp && $number == 271 ]]; then
-		mkdir $HOME/exp/sp_271
-
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/sp_271_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/sp_271_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
+	
 	elif [[ $apps == bt && $number == 301 ]]; then
-		mkdir $HOME/exp/bt_301
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/bt_301_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/bt_301_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
+	fi
 
 	elif [[ $apps == sp && $number == 331 ]]; then
-		mkdir $HOME/exp/sp_331
-
+		if [[ $process == 16 ]]; then
+			touch $HOME/exp/sp_331_16
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		else
+			touch $HOME/exp/sp_331_64
+			for (( i = 0; i < 3; i++ )); do
+				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
+			done
+		fi
 	fi
 
 #Execute the experiments
+
+c=1
+while [[ $c<4 ]]; do
+		if [[ -e slave$cok ]]; then
+		  	#rm -rf slave$cok
+		 	let c++
+		 fi 
+done
+
 	echo "Executing >> $runline <<"
 	eval "$runline < /dev/null"
 	
