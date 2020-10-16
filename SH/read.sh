@@ -22,6 +22,7 @@ slaveok=slave1ok
 MACHINEFILE16=$MACHINE_FILES/nodes16
 MACHINEFILE64=$MACHINE_FILES/nodes64
 
+mkdir -p $BENCHMARKS
 
 #Kill processes
 #kill -15 -1
