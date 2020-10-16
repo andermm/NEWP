@@ -42,7 +42,10 @@ mkdir -p $LOGS_BACKUP_SRC_CODE
 #############################################################################################################
 
 #######################################NPB##################################################
-#Exec
+for (( i = 0; i < 3; i++ )); do
+	ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/benchmark.sh' > /dev/null 2>&1 &
+done
+#######################################NPB##################################################
 cd $BENCHMARKS
 wget -c https://www.nas.nasa.gov/assets/npb/NPB3.4.1.tar.gz -S -a $LOGS_DOWNLOAD/NPB3.4.1_$INSTANCE.download.log
 cp -r NPB3.4.1.tar.gz $LOGS_BACKUP_SRC_CODE; mv $LOGS_BACKUP_SRC_CODE/NPB3.4.1.tar.gz $LOGS_BACKUP_SRC_CODE/NPB3.4.1_$INSTANCE.tar.gz
