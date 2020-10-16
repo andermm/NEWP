@@ -18,7 +18,7 @@ APP_COMPILE_NPBE=$NPBE/NPB3.4-MPI
 DIR=$HOME/exp
 appsn=(bt sp is ft)
 processesn=(16 64)
-slave=slave1ok
+slaveok=slave1ok
 MACHINEFILE16=$MACHINE_FILES/nodes16
 MACHINEFILE64=$MACHINE_FILES/nodes64
 
@@ -36,7 +36,7 @@ for (( p = 0; p < 2; p++ )); do
 			for i in {1..331..30}; do 
 				FILE_[$i]="$app"_"$i"
 				if [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[2]}_1_16 ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -47,7 +47,7 @@ for (( p = 0; p < 2; p++ )); do
 
 			
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[3]}_31_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -58,7 +58,7 @@ for (( p = 0; p < 2; p++ )); do
 
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[2]}_61_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -68,7 +68,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[3]}_91_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -78,7 +78,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[0]}_121_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -88,7 +88,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[1]}_151_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -98,7 +98,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[0]}_181_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -108,7 +108,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[1]}_211_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -118,7 +118,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[0]}_241_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -128,7 +128,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[1]}_271_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -138,7 +138,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[0]}_301_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -148,7 +148,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[1]}_331_16  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -158,7 +158,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[2]}_1_64 ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -169,7 +169,7 @@ for (( p = 0; p < 2; p++ )); do
 
 			
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[3]}_31_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -180,7 +180,7 @@ for (( p = 0; p < 2; p++ )); do
 
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[2]}_61_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -190,7 +190,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[3]}_91_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -200,7 +200,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[0]}_121_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -210,7 +210,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[1]}_151_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -220,7 +220,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[0]}_181_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -230,7 +230,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[1]}_211_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -240,7 +240,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[0]}_241_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -250,7 +250,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[1]}_271_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -260,7 +260,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[0]}_301_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
@@ -270,7 +270,7 @@ for (( p = 0; p < 2; p++ )); do
 					done
 
 				elif [[ -e "${FILE_[i]}"_$processes && "${FILE_[i]}"_$processes == ${appsn[1]}_331_64  ]]; then
-					touch $slave
+					touch $slaveok
 					while [[ true ]]; do	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
