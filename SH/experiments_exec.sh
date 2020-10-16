@@ -30,12 +30,12 @@ PARTITION=(LACP20 LACP30 LACP40)
 #######################Step 2: Create the Folders/Download and Compile the Programs##########################
 #############################################################################################################
 
-touch -p $BASE/LOGS/SYS_INFO
-touch -p $BENCHMARKS
-touch -p $LOGS
-touch -p $BASE/LOGS/LOGS_BACKUP
-touch -p $LOGS_DOWNLOAD
-touch -p $LOGS_BACKUP_SRC_CODE
+mkdir -p $BASE/LOGS/SYS_INFO
+mkdir -p $BENCHMARKS
+mkdir -p $LOGS
+mkdir -p $BASE/LOGS/LOGS_BACKUP
+mkdir -p $LOGS_DOWNLOAD
+mkdir -p $LOGS_BACKUP_SRC_CODE
 
 #############################################################################################################
 #################################Step 3: Collect the System Information######################################
