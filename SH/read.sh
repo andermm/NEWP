@@ -63,77 +63,77 @@ for (( p = 0; p < 2; p++ )); do
 					touch $slaveok
 					while [[ true ]]; do
 					if [[ "${FILE_[i]}"_$processes == ${appsn[2]}_1_16 ]]; then
-						$KERNEL=is.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=is.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[3]}_31_16 ]]; then
-						$KERNEL=ft.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=ft.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[2]}_61_16 ]]; then
-						$KERNEL=ft.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=ft.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[3]}_91_16 ]]; then
-						$KERNEL=is.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=is.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[0]}_121_16 ]]; then
-						$KERNEL=is.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=is.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_151_16 ]]; then
-						$KERNEL=is.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=is.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[0]}_181_16 ]]; then
-						$KERNEL=ft.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=ft.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_211_16 ]]; then
-						$KERNEL=ft.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=ft.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[0]}_241_16 ]]; then
-						$KERNEL=bt.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=bt.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_271_16  ]]; then
-						$KERNEL=sp.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=sp.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[0]}_301_16  ]]; then
-						$KERNEL=sp.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=sp.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_331_16  ]]; then
-						$KERNEL=bt.C.x
-						$MACHINEFILE=$MACHINEFILE16
+						KERNEL=bt.C.x
+						MACHINEFILE=$MACHINEFILE16
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[2]}_1_64 ]]; then
-						$KERNEL=is.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=is.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[3]}_31_64 ]]; then
-						$KERNEL=ft.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=ft.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[2]}_61_64 ]]; then
-						$KERNEL=ft.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=ft.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[3]}_91_64 ]]; then
-						$KERNEL=is.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=is.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[0]}_121_64 ]]; then
-						$KERNEL=is.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=is.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_151_64 ]]; then
-						$KERNEL=is.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=is.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[0]}_181_64 ]]; then
-						$KERNEL=ft.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=ft.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_211_64 ]]; then
-						$KERNEL=ft.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=ft.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[0]}_241_64 ]]; then
-						$KERNEL=bt.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=bt.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_271_64  ]]; then
-						$KERNEL=sp.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=sp.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[0]}_301_64  ]]; then
-						$KERNEL=sp.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=sp.C.x
+						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_331_64  ]]; then
-						$KERNEL=bt.C.x
-						$MACHINEFILE=$MACHINEFILE64
+						KERNEL=bt.C.x
+						MACHINEFILE=$MACHINEFILE64
 					fi	
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
