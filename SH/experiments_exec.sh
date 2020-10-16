@@ -119,8 +119,7 @@ do
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
-		fi			
-	fi
+		fi
 
 	elif [[ $apps == ft && $number == 31 ]]; then
 		if [[ $process == 16 ]]; then
@@ -134,7 +133,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 
 	elif [[ $apps == is && $number == 61 ]]; then
 		if [[ $process == 16 ]]; then
@@ -148,7 +146,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 
 	elif [[ $apps == ft && $number == 91 ]]; then
 		if [[ $process == 16 ]]; then
@@ -162,7 +159,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 
 	elif [[ $apps == bt && $number == 121 ]]; then
 		if [[ $process == 16 ]]; then
@@ -176,7 +172,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 
 	elif [[ $apps == sp && $number == 151 ]]; then
 		if [[ $process == 16 ]]; then
@@ -190,7 +185,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 
 	elif [[ $apps == bt && $number == 181 ]]; then
 		if [[ $process == 16 ]]; then
@@ -204,7 +198,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 	
 	elif [[ $apps == sp && $number == 211 ]]; then
 		if [[ $process == 16 ]]; then
@@ -218,7 +211,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 
 	elif [[ $apps == bt && $number == 241 ]]; then
 		if [[ $process == 16 ]]; then
@@ -232,7 +224,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 
 	elif [[ $apps == sp && $number == 271 ]]; then
 		if [[ $process == 16 ]]; then
@@ -246,7 +237,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 	
 	elif [[ $apps == bt && $number == 301 ]]; then
 		if [[ $process == 16 ]]; then
@@ -260,7 +250,6 @@ do
 				ssh ${PARTITION[i]} 'echo slave=slave$i >> read.sh; nohup /home/lacp/NEWP/SH/read.sh' 
 			done
 		fi
-	fi
 
 	elif [[ $apps == sp && $number == 331 ]]; then
 		if [[ $process == 16 ]]; then
@@ -278,14 +267,13 @@ do
 
 #Execute the experiments
 
-c=1
-while [[ $c<4 ]]; do
-		if [[ -e slave$cok ]]; then
-		  	#rm -rf slave$cok
-		 	let c++
-		 fi 
-done
-
+	c=1
+	while [[ $c<4 ]]; do
+			if [[ -e slave$cok ]]; then
+			  	#rm -rf slave$cok
+		 		let c++
+			 fi 
+	done
 	echo "Executing >> $runline <<"
 	eval "$runline < /dev/null"
 	
