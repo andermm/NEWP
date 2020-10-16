@@ -43,7 +43,7 @@ mkdir -p $LOGS_BACKUP_SRC_CODE
 
 #######################################NPB##################################################
 for (( i = 0; i < 3; i++ )); do
-	ssh ${PARTITION[i]} 'sh /home/lacp/NEWP/SH/benchmark.sh' > /dev/null 2>&1 &
+	ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/benchmark.sh > benchmark.log' > /dev/null 2>&1 &
 done                           
 #######################################NPB##################################################
 cd $BENCHMARKS
