@@ -1,4 +1,4 @@
-#!/bin.bash
+#!/bin/bash
 
 BASE=$HOME/NEWP
 SCRIPTS=$BASE/SH

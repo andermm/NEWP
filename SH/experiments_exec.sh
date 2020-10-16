@@ -43,8 +43,8 @@ mkdir -p $LOGS_BACKUP_SRC_CODE
 
 #######################################NPB##################################################
 for (( i = 0; i < 3; i++ )); do
-	ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/benchmark.sh' > /dev/null 2>&1 &
-done
+	ssh ${PARTITION[i]} 'sh /home/lacp/NEWP/SH/benchmark.sh' > /dev/null 2>&1 &
+done                           
 #######################################NPB##################################################
 cd $BENCHMARKS
 wget -c https://www.nas.nasa.gov/assets/npb/NPB3.4.1.tar.gz -S -a $LOGS_DOWNLOAD/NPB3.4.1_$INSTANCE.download.log
@@ -283,8 +283,8 @@ do
 aps=(is_1 ft_31 is_61 ft_91 bt_121 sp_151 bt_181 sp_211 bt_241 sp_271 bt_301 sp_331)
 c=1
 	for (( p = 0; p < 12; p++ )); do
-		app_procs=${aps[p]}
-		if [[ $app_procs == $apps_$process ]]; then
+		app_number=${aps[p]}
+		if [[ $app_number == $apps\_$number ]]; then
 			while [[ $c<4 ]]; do
 				if [[ -e slave$cok ]]; then
 			  		rm -rf slave$cok
