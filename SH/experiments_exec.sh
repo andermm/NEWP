@@ -281,11 +281,11 @@ do
 
 #Execute the experiments
 aps=(is_1 ft_31 is_61 ft_91 bt_121 sp_151 bt_181 sp_211 bt_241 sp_271 bt_301 sp_331)
-c=1
+c=2
 	for (( p = 0; p < 12; p++ )); do
 		app_number=${aps[p]}
 		if [[ $app_number == $apps\_$number ]]; then
-			while [[ $c<4 ]]; do
+			while [[ $c<5 ]]; do
 				if [[ -e slave$cok ]]; then
 			  		rm -rf slave$cok
 		 			let c++
