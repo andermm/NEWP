@@ -103,23 +103,6 @@ do
 	echo $KEY
 	echo ""
 
-#Prepare the command for execution
-	runline=""
-	runline+="mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 "
-	
-	PROCS=$process
-	
-	runline+="-np $PROCS" 
-	
-	if [[ $process == 16 ]]; then
-	runline+=" -machinefile $MACHINEFILE16 "	
-	else
-	runline+=" -machinefile $MACHINEFILE64 "			
-	fi
-	
-	runline+="$BENCHMARKS/$APP_BIN_NPBE/$apps.C.x "
-	runline+="2>> $LOGS/apps_exec_std_error "
-	runline+="&> >(tee -a $LOGS/LOGS_BACKUP/$apps.$BOND.log > /tmp/nas.out)"	
 
 #Create the Output to the other clusters
 	if [[ $apps == is && $number == 1 ]]; then
@@ -278,6 +261,25 @@ do
 			done
 		fi
 	fi
+
+#Prepare the command for execution
+	runline=""
+	runline+="mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 "
+	
+	PROCS=$process
+	
+	runline+="-np $PROCS" 
+	
+	if [[ $process == 16 ]]; then
+	runline+=" -machinefile $MACHINEFILE16 "	
+	else
+	runline+=" -machinefile $MACHINEFILE64 "			
+	fi
+	
+	runline+="$BENCHMARKS/$APP_BIN_NPBE/$apps.C.x "
+	runline+="2>> $LOGS/apps_exec_std_error "
+	runline+="&> >(tee -a $LOGS/LOGS_BACKUP/$apps.$BOND.log > /tmp/nas.out)"	
+
 
 #Execute the experiments
 cd $DIR
