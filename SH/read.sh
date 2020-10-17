@@ -15,13 +15,20 @@ MACHINEFILE16=$MACHINE_FILES/nodes16_$HOSTNAME
 MACHINEFILE64=$MACHINE_FILES/nodes64_$HOSTNAME
 NPBE=NPB3.4.1
 APP_BIN_NPBE=$NPBE/NPB3.4-MPI/bin/
-
-
-#Kill processes
-#kill -15 -1
-
+app_procs=(is_1 ft_31 is_61 ft_91 bt_121 sp_151 bt_181 sp_211 bt_241 sp_271 bt_301 sp_331)
 
 cd $DIR
+
+for (( a = 0; a < 12; a++ )); do
+	app_proc=${app_procs[a]}
+	while [[ $c < 2 ]]; do
+		if [[ -e $app_proc\_16 ]]; then
+			let c++
+		elif [[ -e $app_proc\_64 ]]; then
+			let c++
+		fi
+	done
+done
 
 for (( p = 0; p < 2; p++ )); do
 	processes=${processesn[p]}

@@ -126,7 +126,7 @@ do
 		if [[ $process == 16 ]]; then
 			touch $HOME/exp/is_1_16
 			for (( i = 0; i < 3; i++ )); do
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &&
+				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/is_1_64
@@ -248,7 +248,7 @@ do
 		else
 			touch $HOME/exp/sp_271_64
 			for (( i = 0; i < 3; i++ )); do
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1  &
+				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
 			done
 		fi
 	
