@@ -126,14 +126,12 @@ do
 		if [[ $process == 16 ]]; then
 			touch $HOME/exp/is_1_16
 			for (( i = 0; i < 3; i++ )); do
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
+				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &&
 			done
 		else
 			touch $HOME/exp/is_1_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 
@@ -142,13 +140,11 @@ do
 			touch $HOME/exp/ft_31_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/ft_31_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 
@@ -157,13 +153,11 @@ do
 			touch $HOME/exp/is_61_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/is_61_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 
@@ -172,13 +166,11 @@ do
 			touch $HOME/exp/ft_91_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/ft_91_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 
@@ -187,13 +179,11 @@ do
 			touch $HOME/exp/bt_121_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/bt_121_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 
@@ -202,13 +192,11 @@ do
 			touch $HOME/exp/sp_151_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/sp_151_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 
@@ -217,13 +205,11 @@ do
 			touch $HOME/exp/bt_181_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/bt_181_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 	
@@ -232,13 +218,11 @@ do
 			touch $HOME/exp/sp_211_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/sp_211_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 
@@ -247,13 +231,11 @@ do
 			touch $HOME/exp/bt_241_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/bt_241_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 
@@ -262,13 +244,11 @@ do
 			touch $HOME/exp/sp_271_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/sp_271_64
 			for (( i = 0; i < 3; i++ )); do
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
+				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1  &
 			done
 		fi
 	
@@ -277,13 +257,11 @@ do
 			touch $HOME/exp/bt_301_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/bt_301_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 
@@ -292,13 +270,11 @@ do
 			touch $HOME/exp/sp_331_16
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		else
 			touch $HOME/exp/sp_331_64
 			for (( i = 0; i < 3; i++ )); do
 				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/kill.sh' > /dev/null 2>&1 &
-				ssh ${PARTITION[i]} 'nohup /home/lacp/NEWP/SH/read.sh' > /dev/null 2>&1 &
 			done
 		fi
 	fi

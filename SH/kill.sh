@@ -7,3 +7,5 @@ for (( i = 0; i < 4; i++ )); do
         pkill -f "$apps"
         pkill -f "read.sh"
 done
+
+nohup /home/lacp/NEWP/SH/read.sh > /dev/null 2>&1 &
