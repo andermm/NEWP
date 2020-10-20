@@ -30,7 +30,7 @@ for (( a = 0; a < 12; a++ )); do
 	done
 done
 
-date
+
 for (( p = 0; p < 2; p++ )); do
 	processes=${processesn[p]}
 	for (( n = 0; n < 4; n++ )); do
@@ -114,11 +114,12 @@ for (( p = 0; p < 2; p++ )); do
 						KERNEL=bt.C.x
 						MACHINEFILE=$MACHINEFILE64
 					fi	
+					date
 					mpiexec --mca btl self,tcp \
 							--mca btl_tcp_if_include eth0 \
 							-np $processesn \
 							-machinefile $MACHINEFILE \
-							"$BENCHMARKS/$APP_BIN_NPBE"$KERNEL						
+							"$BENCHMARKS/$APP_BIN_NPBE"$KERNEL
 					done
 			fi
 		done
