@@ -18,6 +18,7 @@ APP_BIN_NPBE=$NPBE/NPB3.4-MPI/bin/
 app_procs=(is_1 ft_31 is_61 ft_91 bt_121 sp_151 bt_181 sp_211 bt_241 sp_271 bt_301 sp_331)
 
 cd $DIR
+c=1
 
 for (( a = 0; a < 12; a++ )); do
 	app_proc=${app_procs[a]}
@@ -37,10 +38,9 @@ for (( p = 0; p < 2; p++ )); do
 		app=${appsn[n]}
 			for i in {1..331..30}; do 
 				FILE_[$i]="$app"_"$i"
-				if [[ -e "${FILE_[i]}"_$processes ]]; then
+				if [[ -e "${FILE_[i]}"\_16 ]]; then
 					touch $slaveok
-					touch teste
-					#rm -rf  "${FILE_[i]}"_$processes
+										
 					while [[ true ]]; do
 					if [[ "${FILE_[i]}"_$processes == ${appsn[2]}_1_16 ]]; then
 						KERNEL=is.C.x
@@ -78,7 +78,22 @@ for (( p = 0; p < 2; p++ )); do
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_331_16  ]]; then
 						KERNEL=bt.C.x
 						MACHINEFILE=$MACHINEFILE16
-					elif [[ "${FILE_[i]}"_$processes == ${appsn[2]}_1_64 ]]; then
+					fi
+				fi
+
+					date
+					mpiexec --mca btl self,tcp \
+							--mca btl_tcp_if_include eth0 \
+							-np $processesn \
+							-machinefile $MACHINEFILE \
+							"$BENCHMARKS/$APP_BIN_NPBE"$KERNEL
+					done
+
+				if [[ -e "${FILE_[i]}"\_64 ]]; then
+					touch $slaveok
+					
+					while [[ true ]]; do									
+					if [[ "${FILE_[i]}"_$processes == ${appsn[2]}_1_64 ]]; then
 						KERNEL=is.C.x
 						MACHINEFILE=$MACHINEFILE64
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[3]}_31_64 ]]; then
@@ -114,14 +129,10 @@ for (( p = 0; p < 2; p++ )); do
 					elif [[ "${FILE_[i]}"_$processes == ${appsn[1]}_331_64  ]]; then
 						KERNEL=bt.C.x
 						MACHINEFILE=$MACHINEFILE64
-					fi	
-					date
-					mpiexec --mca btl self,tcp \
-							--mca btl_tcp_if_include eth0 \
-							-np $processesn \
-							-machinefile $MACHINEFILE \
-							"$BENCHMARKS/$APP_BIN_NPBE"$KERNEL
-					done
+					fi
+				fi
+			done
+					
 			fi
 		done
 	done

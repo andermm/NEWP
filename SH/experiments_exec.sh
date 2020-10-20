@@ -296,6 +296,22 @@ c=2
 			done
 		fi
 	done
+
+apsdel=(is_30 ft_60 is_90 ft_120 bt_150 sp_180 bt_210 sp_240 bt_270 sp_300 bt_330 sp_360)
+	for (( d = 0; d < 12; d++ )); do
+		apsdeln=${apsdel[d]}
+		for (( p = 0; p < 12; p++ )); do
+			app_number=${aps[p]}
+			if [[ $process == 16 ]]; then
+				if [[ $apsdeln == $apps\_$number ]]; then
+					rm $app_number\_16
+			else
+				if [[ $apsdeln == $apps\_$number ]]; then
+					rm $app_number\_64
+				fi
+			fi
+		done
+	done
 	
 	date
 	echo "Executing >> $runline <<"
