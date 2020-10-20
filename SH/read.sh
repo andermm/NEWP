@@ -30,6 +30,7 @@ for (( a = 0; a < 12; a++ )); do
 	done
 done
 
+date
 for (( p = 0; p < 2; p++ )); do
 	processes=${processesn[p]}
 	for (( n = 0; n < 4; n++ )); do

@@ -297,6 +297,7 @@ c=2
 		fi
 	done
 	
+	date
 	echo "Executing >> $runline <<"
 	eval "$runline < /dev/null"
 	
