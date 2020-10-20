@@ -39,6 +39,7 @@ for (( p = 0; p < 2; p++ )); do
 				FILE_[$i]="$app"_"$i"
 				if [[ -e "${FILE_[i]}"_$processes ]]; then
 					touch $slaveok
+					touch teste
 					#rm -rf  "${FILE_[i]}"_$processes
 					while [[ true ]]; do
 					if [[ "${FILE_[i]}"_$processes == ${appsn[2]}_1_16 ]]; then
