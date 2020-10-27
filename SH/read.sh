@@ -67,29 +67,29 @@ cd $DIR
 					MACHINEFILE=$MACHINEFILE64
 					while [[ true ]]; do
 									
-					if [[ "${FILE_[i]}"_64 == ${appsn[2]}_1_64 ]]; then
+					if [[ "${FILE_[i]}"_64 == ${appsn[2]}_361_64 ]]; then
 						KERNEL=is.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[3]}_31_64 ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[3]}_391_64 ]]; then
 						KERNEL=ft.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[2]}_61_64 ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[2]}_421_64 ]]; then
 						KERNEL=ft.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[3]}_91_64 ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[3]}_451_64 ]]; then
 						KERNEL=is.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[0]}_121_64 ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[0]}_481_64 ]]; then
 						KERNEL=is.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[1]}_151_64 ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[1]}_511_64 ]]; then
 						KERNEL=is.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[0]}_181_64 ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[0]}_541_64 ]]; then
 						KERNEL=ft.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[1]}_211_64 ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[1]}_571_64 ]]; then
 						KERNEL=ft.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[0]}_241_64 ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[0]}_601_64 ]]; then
 						KERNEL=bt.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[1]}_271_64  ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[1]}_631_64  ]]; then
 						KERNEL=sp.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[0]}_301_64  ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[0]}_661_64  ]]; then
 						KERNEL=sp.C.x
-					elif [[ "${FILE_[i]}"_64 == ${appsn[1]}_331_64  ]]; then
+					elif [[ "${FILE_[i]}"_64 == ${appsn[1]}_691_64  ]]; then
 						KERNEL=bt.C.x
 					fi
 

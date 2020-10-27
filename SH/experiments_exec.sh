@@ -315,7 +315,7 @@ apsdel64=(is_361 ft_391 is_421 ft_451 bt_481 sp_511 bt_541 sp_571 bt_601 sp_631 
 						fi			
 				done
 			done
-		elif [[ $process == 16 ]]; then
+		elif [[ $process == 64 ]]; then
 			for (( d = 0; d < 12; d++ )); do
 			apsdeln=${apsdel64[d]}
 				for (( p = 0; p < 12; p++ )); do
