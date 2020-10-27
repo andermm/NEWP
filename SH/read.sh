@@ -21,7 +21,7 @@ cd $DIR
 
 	for (( n = 0; n < 4; n++ )); do
 		app=${appsn[n]}
-		for i in {1..331..30}; do 
+		for i in {1..691..30}; do 
 				FILE_[$i]="$app"_"$i"
 				if [[ -e "${FILE_[i]}"\_16 ]]; then
 					touch $slaveok

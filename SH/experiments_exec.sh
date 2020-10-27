@@ -106,161 +106,149 @@ do
 
 #Create the Output to the other clusters
 	if [[ $apps == is && $number == 1 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/is_1_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/is_1_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 
 	elif [[ $apps == ft && $number == 31 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/ft_31_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/ft_31_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 
 	elif [[ $apps == is && $number == 61 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/is_61_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/is_61_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 
 	elif [[ $apps == ft && $number == 91 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/ft_91_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/ft_91_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 
 	elif [[ $apps == bt && $number == 121 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/bt_121_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/bt_121_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 
 	elif [[ $apps == sp && $number == 151 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/sp_151_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/sp_151_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 
 	elif [[ $apps == bt && $number == 181 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/bt_181_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/bt_181_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 	
 	elif [[ $apps == sp && $number == 211 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/sp_211_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/sp_211_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 
 	elif [[ $apps == bt && $number == 241 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/bt_241_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/bt_241_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 
 	elif [[ $apps == sp && $number == 271 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/sp_271_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/sp_271_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
-	
+			
 	elif [[ $apps == bt && $number == 301 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/bt_301_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/bt_301_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		fi
 
 	elif [[ $apps == sp && $number == 331 ]]; then
-		if [[ $process == 16 ]]; then
 			touch $HOME/exp/sp_331_16
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
-		else
-			touch $HOME/exp/sp_331_64
+		
+	elif [[ $apps == is && $number == 361 ]]; then
+			touch $HOME/exp/is_361_64
 			for (( i = 0; i < 3; i++ )); do
 				nohup $HOME/NEWP/SH/call.sh
 			done
+		
+	elif [[ $apps == ft && $number == 391 ]]; then
+			touch $HOME/exp/ft_391_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+		
+	elif [[ $apps == is && $number == 421 ]]; then
+			touch $HOME/exp/is_421_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+
+	elif [[ $apps == ft && $number == 451 ]]; then
+			touch $HOME/exp/ft_451_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+
+	elif [[ $apps == bt && $number == 481 ]]; then
+			touch $HOME/exp/bt_481_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+
+	elif [[ $apps == sp && $number == 511 ]]; then
+			touch $HOME/exp/sp_511_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+
+	elif [[ $apps == bt && $number == 541 ]]; then
+			touch $HOME/exp/bt_541_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+
+	elif [[ $apps == sp && $number == 571 ]]; then
+			touch $HOME/exp/sp_571_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+
+	elif [[ $apps == bt && $number == 601 ]]; then
+			touch $HOME/exp/bt_601_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+
+	elif [[ $apps == sp && $number == 631 ]]; then	
+			touch $HOME/exp/sp_631_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+
+	elif [[ $apps == bt && $number == 661 ]]; then
+			touch $HOME/exp/bt_661_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done
+
+	elif [[ $apps == sp && $number == 691 ]]; then
+			touch $HOME/exp/sp_691_64
+			for (( i = 0; i < 3; i++ )); do
+				nohup $HOME/NEWP/SH/call.sh
+			done		
 		fi
-	fi
 
 #Prepare the command for execution
 	runline=""
@@ -283,34 +271,61 @@ do
 
 #Execute the experiments
 cd $DIR
-aps=(is_1 ft_31 is_61 ft_91 bt_121 sp_151 bt_181 sp_211 bt_241 sp_271 bt_301 sp_331)
+aps16=(is_1 ft_31 is_61 ft_91 bt_121 sp_151 bt_181 sp_211 bt_241 sp_271 bt_301 sp_331)
+aps64=(is_361 ft_391 is_421 ft_451 bt_481 sp_511 bt_541 sp_571 bt_601 sp_631 bt_661 sp_691)
 c=2
-	for (( p = 0; p < 12; p++ )); do
-		app_number=${aps[p]}
-		if [[ $app_number == $apps\_$number ]]; then
-			while [[ $c<5 ]]; do
-				if [[ -e slave"$c"ok ]]; then
-			  		rm -rf slave"$c"ok
-		 			let c++
-			 	fi 
+
+	if [[ $process == 16 ]]; then
+		for (( p = 0; p < 12; p++ )); do
+            app_number16=${aps16[p]}
+            if [[ -e ${app_number16}\_16 ]]; then                                        #               while [[ $c<5 ]]; do
+      	       	while [[ $c<5 ]]; do
+        	       	if [[ -e slave"$c"ok ]]; then
+        	       	    rm -rf slave"$c"ok
+                        let c++
+                	fi
+        	    done	
+            fi
+        done
+
+    elif [[ $process == 64 ]]; then
+        for (( p = 0; p < 12; p++ )); do
+        	app_number64=${aps64[p]}
+        	if [[ -e ${app_number64}\_64 ]]; then
+        		while [[ $c<5 ]]; do
+        	       	if [[ -e slave"$c"ok ]]; then
+        	       	    rm -rf slave"$c"ok
+                        let c++
+                	fi
+        	    done
+        		fi	
+        done
+    fi
+
+apsdel16=(is_30 ft_60 is_90 ft_120 bt_150 sp_180 bt_210 sp_240 bt_270 sp_300 bt_330 sp_360)
+apsdel64=(is_361 ft_391 is_421 ft_451 bt_481 sp_511 bt_541 sp_571 bt_601 sp_631 bt_661 sp_691)
+	
+		if [[ $process == 16 ]]; then
+			for (( d = 0; d < 12; d++ )); do
+			apsdeln=${apsdel16[d]}
+				for (( p = 0; p < 12; p++ )); do
+					app_numberdel16=${aps16[p]}
+						if [[ $apsdeln == $apps\_$number ]]; then
+							rm $app_number\_16
+						fi			
+				done
+			done
+		elif [[ $process == 16 ]]; then
+			for (( d = 0; d < 12; d++ )); do
+			apsdeln=${apsdel64[d]}
+				for (( p = 0; p < 12; p++ )); do
+					app_numberdel64=${aps64[p]}
+						if [[ $apsdeln == $apps\_$number ]]; then
+							rm $app_number\_64
+						fi			
+				done
 			done
 		fi
-	done
-
-apsdel=(is_30 ft_60 is_90 ft_120 bt_150 sp_180 bt_210 sp_240 bt_270 sp_300 bt_330 sp_360)
-	
-	for (( d = 0; d < 12; d++ )); do
-		apsdeln=${apsdel[d]}
-		for (( p = 0; p < 12; p++ )); do
-			app_number=${aps[p]}
-			if [[ $process == 16 && $apsdeln == $apps\_$number ]]; then
-				rm $app_number\_16
-			elif [[ $process == 64 && $apsdeln == $apps\_$number ]]; then
-				rm $app_number\_64
-			fi			
-		done
-	done
-	
 
 	date
 	echo "Executing >> $runline <<"
