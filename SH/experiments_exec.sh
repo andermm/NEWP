@@ -73,19 +73,9 @@ cd $APP_COMPILE_NPBE; make suite
 #############################################################################################################
 
 #Define the machine file and experimental project
-if [[ $HOSTNAME == LACP10 ]]; then
-	MACHINEFILE16=$MACHINE_FILES/nodes16_LACP10
-	MACHINEFILE64=$MACHINE_FILES/nodes64_LACP10
-elif [[ $HOSTNAME == LACP20  ]]; then
-	MACHINEFILE16=$MACHINE_FILES/nodes16_LACP20
-	MACHINEFILE64=$MACHINE_FILES/nodes64_LACP20
-elif [[ $HOSTNAME == LACP30  ]]; then
-	MACHINEFILE16=$MACHINE_FILES/nodes16_LACP30
-	MACHINEFILE64=$MACHINE_FILES/nodes64_LACP30
-elif [[ $HOSTNAME == LACP40  ]]; then
-	MACHINEFILE16=$MACHINE_FILES/nodes16_LACP40
-	MACHINEFILE64=$MACHINE_FILES/nodes64_LACP40
-fi
+MACHINEFILE16=$MACHINE_FILES/nodes16_${HOSTNAME}
+MACHINEFILE64=$MACHINE_FILES/nodes64_${HOSTNAME}
+
 PROJECT=$MACHINE_FILES/experimental_project.csv
 
 #############################################################################################################
@@ -311,7 +301,7 @@ apsdel64=(is_361 ft_391 is_421 ft_451 bt_481 sp_511 bt_541 sp_571 bt_601 sp_631 
 				for (( p = 0; p < 12; p++ )); do
 					app_numberdel16=${aps16[p]}
 						if [[ $apsdeln == $apps\_$number ]]; then
-							rm $app_number\_16
+							rm $app_numberdel16\_16
 						fi			
 				done
 			done
@@ -321,7 +311,7 @@ apsdel64=(is_361 ft_391 is_421 ft_451 bt_481 sp_511 bt_541 sp_571 bt_601 sp_631 
 				for (( p = 0; p < 12; p++ )); do
 					app_numberdel64=${aps64[p]}
 						if [[ $apsdeln == $apps\_$number ]]; then
-							rm $app_number\_64
+							rm $app_numberdel64\_64
 						fi			
 				done
 			done
