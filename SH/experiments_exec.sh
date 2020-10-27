@@ -332,9 +332,9 @@ apsdel64=(is_361 ft_391 is_421 ft_451 bt_481 sp_511 bt_541 sp_571 bt_601 sp_631 
 	eval "$runline < /dev/null"
 	
 	TIME=`grep -i "Time in seconds" /tmp/nas.out | awk {'print $5'}`
-	echo "$apps,$BOND,$TIME" >> $OUTPUT_APPS_EXEC
+	echo "$apps,$process,$BOND,$TIME" >> $OUTPUT_APPS_EXEC
 
 	echo "Done!"
 done
-sed -i '1s/^/apps,bondmode,time\n/' $OUTPUT_APPS_EXEC
+sed -i '1s/^/apps,process,bondmode,time\n/' $OUTPUT_APPS_EXEC
 exit
