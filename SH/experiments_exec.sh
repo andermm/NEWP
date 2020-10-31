@@ -272,6 +272,7 @@ c=2
       	       	while [[ $c<5 ]]; do
         	       	if [[ -e slave"$c"ok ]]; then
         	       	    rm -rf slave"$c"ok
+        	       	    rm $app_number16\_16
                         let c++
                 	fi
         	    done	
@@ -285,37 +286,13 @@ c=2
         		while [[ $c<5 ]]; do
         	       	if [[ -e slave"$c"ok ]]; then
         	       	    rm -rf slave"$c"ok
+        	       	    rm $app_number16\_64
                         let c++
                 	fi
         	    done
         		fi	
         done
     fi
-
-apsdel16=(is_30 ft_60 is_90 ft_120 bt_150 sp_180 bt_210 sp_240 bt_270 sp_300 bt_330 sp_360)
-apsdel64=(is_361 ft_391 is_421 ft_451 bt_481 sp_511 bt_541 sp_571 bt_601 sp_631 bt_661 sp_691)
-	
-		if [[ $process == 16 ]]; then
-			for (( d = 0; d < 12; d++ )); do
-			apsdeln=${apsdel16[d]}
-				for (( p = 0; p < 12; p++ )); do
-					app_numberdel16=${aps16[p]}
-						if [[ $apsdeln == $apps\_$number ]]; then
-							rm $app_numberdel16\_16
-						fi			
-				done
-			done
-		elif [[ $process == 64 ]]; then
-			for (( d = 0; d < 12; d++ )); do
-			apsdeln=${apsdel64[d]}
-				for (( p = 0; p < 12; p++ )); do
-					app_numberdel64=${aps64[p]}
-						if [[ $apsdeln == $apps\_$number ]]; then
-							rm $app_numberdel64\_64
-						fi			
-				done
-			done
-		fi
 
 	date
 	echo "Executing >> $runline <<"
