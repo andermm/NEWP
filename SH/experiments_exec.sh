@@ -268,7 +268,7 @@ c=2
 	if [[ $process == 16 ]]; then
 		for (( p = 0; p < 12; p++ )); do
             app_number16=${aps16[p]}
-            if [[ -e ${app_number16}\_16 ]]; then                                        #               while [[ $c<5 ]]; do
+            if [[ -e ${app_number16}\_16 ]]; then                                        
       	       	while [[ $c<5 ]]; do
         	       	if [[ -e slave"$c"ok ]]; then
         	       	    rm -rf slave"$c"ok
@@ -286,7 +286,7 @@ c=2
         		while [[ $c<5 ]]; do
         	       	if [[ -e slave"$c"ok ]]; then
         	       	    rm -rf slave"$c"ok
-        	       	    rm $app_number16\_64
+        	       	    rm $app_number64\_64
                         let c++
                 	fi
         	    done
