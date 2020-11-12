@@ -97,147 +97,106 @@ do
 #Create the Output to the other clusters
 	if [[ $apps == is && $number == 1 ]]; then
 			touch $HOME/exp/is_1_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+			nohup $HOME/NEWP/SH/call.sh
+
+	elif [[ $apps == ft && $number == 11 ]]; then
+			touch $HOME/exp/ft_11_16
+			nohup $HOME/NEWP/SH/call.sh
+
+	elif [[ $apps == is && $number == 21 ]]; then
+			touch $HOME/exp/is_21_16
+			nohup $HOME/NEWP/SH/call.sh
 
 	elif [[ $apps == ft && $number == 31 ]]; then
 			touch $HOME/exp/ft_31_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+			nohup $HOME/NEWP/SH/call.sh
 
-	elif [[ $apps == is && $number == 61 ]]; then
-			touch $HOME/exp/is_61_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+	elif [[ $apps == bt && $number == 41 ]]; then
+			touch $HOME/exp/bt_41_16
+			nohup $HOME/NEWP/SH/call.sh
 
-	elif [[ $apps == ft && $number == 91 ]]; then
-			touch $HOME/exp/ft_91_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
 
-	elif [[ $apps == bt && $number == 121 ]]; then
-			touch $HOME/exp/bt_121_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+	elif [[ $apps == sp && $number == 51 ]]; then
+			touch $HOME/exp/sp_51_16
+			nohup $HOME/NEWP/SH/call.sh
 
-	elif [[ $apps == sp && $number == 151 ]]; then
-			touch $HOME/exp/sp_151_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+
+	elif [[ $apps == bt && $number == 61 ]]; then
+			touch $HOME/exp/bt_61_16
+			nohup $HOME/NEWP/SH/call.sh
+
+	
+	elif [[ $apps == sp && $number == 71 ]]; then
+			touch $HOME/exp/sp_71_16
+			nohup $HOME/NEWP/SH/call.sh
+
+
+	elif [[ $apps == bt && $number == 81 ]]; then
+			touch $HOME/exp/bt_81_16
+			nohup $HOME/NEWP/SH/call.sh
+		
+
+	elif [[ $apps == sp && $number == 91 ]]; then
+			touch $HOME/exp/sp_91_16
+			nohup $HOME/NEWP/SH/call.sh
+			
+	elif [[ $apps == bt && $number == 101 ]]; then
+			touch $HOME/exp/bt_101_16
+			nohup $HOME/NEWP/SH/call.sh
+
+	elif [[ $apps == sp && $number == 111 ]]; then
+			touch $HOME/exp/sp_111_16
+			nohup $HOME/NEWP/SH/call.sh
+		
+	elif [[ $apps == is && $number == 121 ]]; then
+			touch $HOME/exp/is_121_64
+			nohup $HOME/NEWP/SH/call.sh
+		
+	elif [[ $apps == ft && $number == 131 ]]; then
+			touch $HOME/exp/ft_131_64
+			nohup $HOME/NEWP/SH/call.sh
+			
+		
+	elif [[ $apps == is && $number == 141 ]]; then
+			touch $HOME/exp/is_141_64
+			nohup $HOME/NEWP/SH/call.sh
+
+	elif [[ $apps == ft && $number == 151 ]]; then
+			touch $HOME/exp/ft_151_64
+			nohup $HOME/NEWP/SH/call.sh
+
+	elif [[ $apps == bt && $number == 161 ]]; then
+			touch $HOME/exp/bt_161_64
+			nohup $HOME/NEWP/SH/call.sh
+
+	elif [[ $apps == sp && $number == 171 ]]; then
+			touch $HOME/exp/sp_171_64
+			nohup $HOME/NEWP/SH/call.sh
 
 	elif [[ $apps == bt && $number == 181 ]]; then
-			touch $HOME/exp/bt_181_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-	
-	elif [[ $apps == sp && $number == 211 ]]; then
-			touch $HOME/exp/sp_211_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-
-	elif [[ $apps == bt && $number == 241 ]]; then
-			touch $HOME/exp/bt_241_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-
-	elif [[ $apps == sp && $number == 271 ]]; then
-			touch $HOME/exp/sp_271_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+			touch $HOME/exp/bt_181_64
+			nohup $HOME/NEWP/SH/call.sh
 			
-	elif [[ $apps == bt && $number == 301 ]]; then
-			touch $HOME/exp/bt_301_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
 
-	elif [[ $apps == sp && $number == 331 ]]; then
-			touch $HOME/exp/sp_331_16
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		
-	elif [[ $apps == is && $number == 361 ]]; then
-			touch $HOME/exp/is_361_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		
-	elif [[ $apps == ft && $number == 391 ]]; then
-			touch $HOME/exp/ft_391_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-		
-	elif [[ $apps == is && $number == 421 ]]; then
-			touch $HOME/exp/is_421_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+	elif [[ $apps == sp && $number == 191 ]]; then
+			touch $HOME/exp/sp_191_64
+			nohup $HOME/NEWP/SH/call.sh
 
-	elif [[ $apps == ft && $number == 451 ]]; then
-			touch $HOME/exp/ft_451_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+	elif [[ $apps == bt && $number == 201 ]]; then
+			touch $HOME/exp/bt_201_64
+			nohup $HOME/NEWP/SH/call.sh
 
-	elif [[ $apps == bt && $number == 481 ]]; then
-			touch $HOME/exp/bt_481_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+	elif [[ $apps == sp && $number == 211 ]]; then	
+			touch $HOME/exp/sp_211_64
+			nohup $HOME/NEWP/SH/call.sh
 
-	elif [[ $apps == sp && $number == 511 ]]; then
-			touch $HOME/exp/sp_511_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
+	elif [[ $apps == bt && $number == 221 ]]; then
+			touch $HOME/exp/bt_221_64
+			nohup $HOME/NEWP/SH/call.sh
 
-	elif [[ $apps == bt && $number == 541 ]]; then
-			touch $HOME/exp/bt_541_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-
-	elif [[ $apps == sp && $number == 571 ]]; then
-			touch $HOME/exp/sp_571_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-
-	elif [[ $apps == bt && $number == 601 ]]; then
-			touch $HOME/exp/bt_601_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-
-	elif [[ $apps == sp && $number == 631 ]]; then	
-			touch $HOME/exp/sp_631_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-
-	elif [[ $apps == bt && $number == 661 ]]; then
-			touch $HOME/exp/bt_661_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done
-
-	elif [[ $apps == sp && $number == 691 ]]; then
-			touch $HOME/exp/sp_691_64
-			for (( i = 0; i < 3; i++ )); do
-				nohup $HOME/NEWP/SH/call.sh
-			done		
+	elif [[ $apps == sp && $number == 231 ]]; then
+			touch $HOME/exp/sp_231_64
+			nohup $HOME/NEWP/SH/call.sh
 		fi
 
 #Prepare the command for execution
@@ -261,8 +220,8 @@ do
 
 #Execute the experiments
 cd $DIR
-aps16=(is_1 ft_31 is_61 ft_91 bt_121 sp_151 bt_181 sp_211 bt_241 sp_271 bt_301 sp_331)
-aps64=(is_361 ft_391 is_421 ft_451 bt_481 sp_511 bt_541 sp_571 bt_601 sp_631 bt_661 sp_691)
+aps16=(is_1 ft_11 is_21 ft_31 bt_41 sp_51 bt_61 sp_71 bt_81 sp_91 bt_101 sp_111)
+aps64=(is_121 ft_131 is_141 ft_151 bt_161 sp_171 bt_181 sp_191 bt_201 sp_211 bt_221 sp_231)
 c=2
 
 	if [[ $process == 16 ]]; then
