@@ -10,4 +10,4 @@ for (( i = 0; i < 4; i++ )); do
 done
 
 
-nohup /home/lacp/NEWP/SH/read.sh > read.log 2>&1 &
+nohup /home/lacp/NEWP/SH/read.sh >> read.log 2>&1 &
