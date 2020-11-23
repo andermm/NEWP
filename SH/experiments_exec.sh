@@ -231,11 +231,11 @@ c=2
       	       	while [[ $c<5 ]]; do
         	       	if [[ -e slave"$c"ok ]]; then
         	       	    rm -rf slave"$c"ok
-        	       	    rm $app_number16\_16
                         let c++
                 	fi
         	    done	
             fi
+            rm $app_number16\_16
         done
 
     elif [[ $process == 64 ]]; then
@@ -245,11 +245,11 @@ c=2
         		while [[ $c<5 ]]; do
         	       	if [[ -e slave"$c"ok ]]; then
         	       	    rm -rf slave"$c"ok
-        	       	    rm $app_number64\_64
                         let c++
                 	fi
         	    done
-        		fi	
+        	fi
+        	rm $app_number64\_64	
         done
     fi
 
