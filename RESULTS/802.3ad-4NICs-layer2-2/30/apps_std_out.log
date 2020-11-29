@@ -1,0 +1,277 @@
+make[1]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/BT'
+rm -f *.o *.mod *~ mputil*
+rm -f  npbparams.h core
+make[1]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/BT'
+make[1]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/BT'
+make[2]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/sys'
+gcc -g -DFORTRAN_REC_SIZE=1 -o setparams setparams.c
+make[2]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/sys'
+../sys/setparams bt C 
+mpifort -c  -O3 mpinpb.f90
+mpifort -c  -O3 bt_data.f90
+mpifort -c  -O3 bt.f90
+mpifort -c  -O3 make_set.f90
+mpifort -c  -O3 initialize.f90
+mpifort -c  -O3 exact_solution.f90
+mpifort -c  -O3 exact_rhs.f90
+mpifort -c  -O3 set_constants.f90
+mpifort -c  -O3 adi.f90
+mpifort -c  -O3 define.f90
+mpifort -c  -O3 copy_faces.f90
+mpifort -c  -O3 rhs.f90
+mpifort -c  -O3 solve_subs.f90
+mpifort -c  -O3 x_solve.f90
+mpifort -c  -O3 y_solve.f90
+mpifort -c  -O3 z_solve.f90
+mpifort -c  -O3 add.f90
+mpifort -c  -O3 error.f90
+mpifort -c  -O3 verify.f90
+mpifort -c  -O3 setup_mpi.f90
+make[2]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/BT'
+mpifort -c  -O3 btio.f90
+mpifort -O3 -o ../bin/bt.C.x bt.o bt_data.o make_set.o initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o define.o copy_faces.o rhs.o solve_subs.o x_solve.o y_solve.o z_solve.o add.o error.o verify.o setup_mpi.o mpinpb.o ../common/get_active_nprocs.o ../common/print_results.o ../common/timers.o btio.o 
+make[2]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/BT'
+make[1]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/BT'
+make[1]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/SP'
+rm -f *.o *.mod *~ mputil*
+rm -f npbparams.h core
+make[1]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/SP'
+make[1]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/SP'
+make[2]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/sys'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/sys'
+../sys/setparams sp C 
+mpifort -c  -O3 mpinpb.f90
+mpifort -c  -O3 sp_data.f90
+mpifort -c  -O3 sp.f90
+mpifort -c  -O3 make_set.f90
+mpifort -c  -O3 initialize.f90
+mpifort -c  -O3 exact_solution.f90
+mpifort -c  -O3 exact_rhs.f90
+mpifort -c  -O3 set_constants.f90
+mpifort -c  -O3 adi.f90
+mpifort -c  -O3 define.f90
+mpifort -c  -O3 copy_faces.f90
+mpifort -c  -O3 rhs.f90
+mpifort -c  -O3 lhsx.f90
+mpifort -c  -O3 lhsy.f90
+mpifort -c  -O3 lhsz.f90
+mpifort -c  -O3 x_solve.f90
+mpifort -c  -O3 ninvr.f90
+mpifort -c  -O3 y_solve.f90
+mpifort -c  -O3 pinvr.f90
+mpifort -c  -O3 z_solve.f90
+mpifort -c  -O3 tzetar.f90
+mpifort -c  -O3 add.f90
+mpifort -c  -O3 txinvr.f90
+mpifort -c  -O3 error.f90
+mpifort -c  -O3 verify.f90
+mpifort -c  -O3 setup_mpi.f90
+mpifort -O3 -o ../bin/sp.C.x sp.o sp_data.o make_set.o initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o define.o copy_faces.o rhs.o lhsx.o lhsy.o lhsz.o x_solve.o ninvr.o y_solve.o pinvr.o z_solve.o tzetar.o add.o txinvr.o error.o verify.o setup_mpi.o mpinpb.o ../common/get_active_nprocs.o ../common/print_results.o ../common/timers.o 
+make[1]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/SP'
+make[1]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/IS'
+rm -f *.o *~ mputil*
+rm -f is npbparams.h core
+make[1]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/IS'
+make[1]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/IS'
+make[2]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/sys'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/sys'
+../sys/setparams is C 
+mpicc -c  -O3 is.c
+mpicc -O3 -o ../bin/is.C.x is.o ../common/c_print_results.o ../common/c_timers.o 
+make[1]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/IS'
+make[1]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/FT'
+rm -f *.o *.mod *~ mputil*
+rm -f ft npbparams.h core
+make[1]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/FT'
+make[1]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/FT'
+make[2]: Entering directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/sys'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/sys'
+../sys/setparams ft C 
+mpifort -c  -O3 mpinpb.f90
+mpifort -c  -O3 ft_data.f90
+mpifort -c  -O3 ft.f90
+mpifort -O3 -o ../bin/ft.C.x ft.o ft_data.o mpinpb.o ../common/get_active_nprocs.o ../common/randi8.o ../common/print_results.o ../common/timers.o 
+make[1]: Leaving directory '/home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/FT'
+
+691-sp-64
+
+Thu Nov  5 10:08:51 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+692-sp-64
+
+Thu Nov  5 10:21:17 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+693-sp-64
+
+Thu Nov  5 10:39:05 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+694-sp-64
+
+Thu Nov  5 10:50:58 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+695-sp-64
+
+Thu Nov  5 11:04:33 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+696-sp-64
+
+Thu Nov  5 11:22:20 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+697-sp-64
+
+Thu Nov  5 11:37:55 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+698-sp-64
+
+Thu Nov  5 11:51:18 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+699-sp-64
+
+Thu Nov  5 12:03:57 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+700-sp-64
+
+Thu Nov  5 12:18:57 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+701-sp-64
+
+Thu Nov  5 12:32:07 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+702-sp-64
+
+Thu Nov  5 12:45:21 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+703-sp-64
+
+Thu Nov  5 12:58:14 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+704-sp-64
+
+Thu Nov  5 13:13:09 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+705-sp-64
+
+Thu Nov  5 13:27:55 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+706-sp-64
+
+Thu Nov  5 13:41:29 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+707-sp-64
+
+Thu Nov  5 13:55:55 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+708-sp-64
+
+Thu Nov  5 14:07:32 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+709-sp-64
+
+Thu Nov  5 14:22:09 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+710-sp-64
+
+Thu Nov  5 14:40:01 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+711-sp-64
+
+Thu Nov  5 14:57:51 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+712-sp-64
+
+Thu Nov  5 15:13:51 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+713-sp-64
+
+Thu Nov  5 15:27:40 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+714-sp-64
+
+Thu Nov  5 15:39:40 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+715-sp-64
+
+Thu Nov  5 15:55:12 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+716-sp-64
+
+Thu Nov  5 16:09:02 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+717-sp-64
+
+Thu Nov  5 16:25:51 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+718-sp-64
+
+Thu Nov  5 16:38:26 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+719-sp-64
+
+Thu Nov  5 16:53:08 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
+
+720-sp-64
+
+Thu Nov  5 17:10:20 -03 2020
+Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
+Done!
