@@ -9,7 +9,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     20.5203
+ Initialization time =     16.9257
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -38,15 +38,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   431.56
+ Time in seconds =                   297.06
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                   918.49
- Mop/s/process   =                    57.41
+ Mop/s total     =                  1334.39
+ Mop/s/process   =                    83.40
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -75,7 +75,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     20.0171
+ Initialization time =     15.8458
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -104,15 +104,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   386.52
+ Time in seconds =                   288.69
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1025.54
- Mop/s/process   =                    64.10
+ Mop/s total     =                  1373.07
+ Mop/s/process   =                    85.82
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -141,7 +141,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     18.0665
+ Initialization time =     15.5907
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -170,15 +170,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   393.50
+ Time in seconds =                   311.50
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1007.34
- Mop/s/process   =                    62.96
+ Mop/s total     =                  1272.50
+ Mop/s/process   =                    79.53
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -207,7 +207,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     20.5358
+ Initialization time =     12.5968
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -236,15 +236,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   410.81
+ Time in seconds =                   323.19
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                   964.89
- Mop/s/process   =                    60.31
+ Mop/s total     =                  1226.48
+ Mop/s/process   =                    76.66
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -273,7 +273,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     18.1746
+ Initialization time =     19.4024
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -302,15 +302,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   393.11
+ Time in seconds =                   310.52
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1008.34
- Mop/s/process   =                    63.02
+ Mop/s total     =                  1276.53
+ Mop/s/process   =                    79.78
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -339,7 +339,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     16.4593
+ Initialization time =     14.2411
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -368,15 +368,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   393.05
+ Time in seconds =                   289.30
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1008.49
- Mop/s/process   =                    63.03
+ Mop/s total     =                  1370.18
+ Mop/s/process   =                    85.64
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -405,7 +405,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     18.9661
+ Initialization time =     13.6993
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -434,15 +434,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   388.50
+ Time in seconds =                   323.09
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1020.29
- Mop/s/process   =                    63.77
+ Mop/s total     =                  1226.87
+ Mop/s/process   =                    76.68
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -471,7 +471,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     19.3223
+ Initialization time =     13.9473
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -500,15 +500,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   394.11
+ Time in seconds =                   302.24
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1005.79
- Mop/s/process   =                    62.86
+ Mop/s total     =                  1311.49
+ Mop/s/process   =                    81.97
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -537,7 +537,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     17.0035
+ Initialization time =     17.1108
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -566,15 +566,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   399.34
+ Time in seconds =                   292.39
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                   992.60
- Mop/s/process   =                    62.04
+ Mop/s total     =                  1355.69
+ Mop/s/process   =                    84.73
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -603,7 +603,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     16.8222
+ Initialization time =     16.6672
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -632,15 +632,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   380.89
+ Time in seconds =                   305.75
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1040.68
- Mop/s/process   =                    65.04
+ Mop/s total     =                  1296.43
+ Mop/s/process   =                    81.03
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -669,7 +669,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     17.4272
+ Initialization time =     12.9500
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -698,15 +698,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   364.45
+ Time in seconds =                   276.06
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1087.62
- Mop/s/process   =                    67.98
+ Mop/s total     =                  1435.89
+ Mop/s/process   =                    89.74
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -735,7 +735,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     18.9977
+ Initialization time =     12.6936
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -764,15 +764,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   366.00
+ Time in seconds =                   269.39
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1083.02
- Mop/s/process   =                    67.69
+ Mop/s total     =                  1471.45
+ Mop/s/process   =                    91.97
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -801,7 +801,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     17.7641
+ Initialization time =     12.6668
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -830,15 +830,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   362.04
+ Time in seconds =                   270.14
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1094.87
- Mop/s/process   =                    68.43
+ Mop/s total     =                  1467.37
+ Mop/s/process   =                    91.71
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -867,7 +867,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     17.7274
+ Initialization time =     15.0863
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -896,15 +896,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   369.46
+ Time in seconds =                   265.48
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1072.87
- Mop/s/process   =                    67.05
+ Mop/s total     =                  1493.09
+ Mop/s/process   =                    93.32
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -933,7 +933,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     15.3098
+ Initialization time =     11.9920
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -962,15 +962,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   367.75
+ Time in seconds =                   267.04
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1077.88
- Mop/s/process   =                    67.37
+ Mop/s total     =                  1484.40
+ Mop/s/process   =                    92.77
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -999,7 +999,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     18.9255
+ Initialization time =     14.1770
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1028,15 +1028,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   361.83
+ Time in seconds =                   262.43
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1095.51
- Mop/s/process   =                    68.47
+ Mop/s total     =                  1510.48
+ Mop/s/process   =                    94.41
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1065,7 +1065,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     17.1046
+ Initialization time =     13.1657
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1094,15 +1094,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   365.96
+ Time in seconds =                   277.60
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1083.15
- Mop/s/process   =                    67.70
+ Mop/s total     =                  1427.90
+ Mop/s/process   =                    89.24
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1131,7 +1131,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     17.9649
+ Initialization time =     14.9028
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1160,15 +1160,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   365.54
+ Time in seconds =                   271.77
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1084.39
- Mop/s/process   =                    67.77
+ Mop/s total     =                  1458.53
+ Mop/s/process   =                    91.16
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1197,7 +1197,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     15.7437
+ Initialization time =     13.4310
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1226,15 +1226,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   369.17
+ Time in seconds =                   274.10
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1073.73
- Mop/s/process   =                    67.11
+ Mop/s total     =                  1446.15
+ Mop/s/process   =                    90.38
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1263,7 +1263,7 @@
  Processor array     :         1x  16
  Layout type         :             1D
 
- Initialization time =     16.7029
+ Initialization time =     12.4971
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1292,15 +1292,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   364.89
+ Time in seconds =                   265.35
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                  1086.34
- Mop/s/process   =                    67.90
+ Mop/s total     =                  1493.81
+ Mop/s/process   =                    93.36
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1329,7 +1329,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     18.2119
+ Initialization time =     18.3074
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1358,15 +1358,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   295.05
+ Time in seconds =                   324.94
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1343.47
- Mop/s/process   =                    20.99
+ Mop/s total     =                  1219.89
+ Mop/s/process   =                    19.06
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1395,7 +1395,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     18.7893
+ Initialization time =     18.5769
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1424,15 +1424,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   289.24
+ Time in seconds =                   328.02
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1370.46
- Mop/s/process   =                    21.41
+ Mop/s total     =                  1208.41
+ Mop/s/process   =                    18.88
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1461,7 +1461,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     18.8792
+ Initialization time =     18.2578
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1490,15 +1490,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   284.74
+ Time in seconds =                   320.13
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1392.10
- Mop/s/process   =                    21.75
+ Mop/s total     =                  1238.21
+ Mop/s/process   =                    19.35
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1527,7 +1527,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     17.6088
+ Initialization time =     13.8046
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1556,15 +1556,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   305.85
+ Time in seconds =                   333.37
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1296.01
- Mop/s/process   =                    20.25
+ Mop/s total     =                  1189.05
+ Mop/s/process   =                    18.58
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1593,7 +1593,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     17.0524
+ Initialization time =     17.3288
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1622,15 +1622,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   284.24
+ Time in seconds =                   325.65
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1394.55
- Mop/s/process   =                    21.79
+ Mop/s total     =                  1217.23
+ Mop/s/process   =                    19.02
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1659,7 +1659,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     18.6418
+ Initialization time =     16.8620
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1688,15 +1688,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   304.65
+ Time in seconds =                   293.92
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1301.12
- Mop/s/process   =                    20.33
+ Mop/s total     =                  1348.62
+ Mop/s/process   =                    21.07
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1725,7 +1725,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     18.4048
+ Initialization time =     19.0605
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1754,15 +1754,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   281.37
+ Time in seconds =                   322.86
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1408.77
- Mop/s/process   =                    22.01
+ Mop/s total     =                  1227.76
+ Mop/s/process   =                    19.18
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1791,7 +1791,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     20.1347
+ Initialization time =     19.1767
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1820,15 +1820,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   286.21
+ Time in seconds =                   315.23
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1384.96
- Mop/s/process   =                    21.64
+ Mop/s total     =                  1257.47
+ Mop/s/process   =                    19.65
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1857,7 +1857,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     17.9418
+ Initialization time =     19.0763
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1886,15 +1886,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   292.79
+ Time in seconds =                   314.72
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1353.81
- Mop/s/process   =                    21.15
+ Mop/s total     =                  1259.48
+ Mop/s/process   =                    19.68
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1923,7 +1923,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     18.5990
+ Initialization time =     20.5586
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -1952,15 +1952,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   291.47
+ Time in seconds =                   307.04
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1359.98
- Mop/s/process   =                    21.25
+ Mop/s total     =                  1290.99
+ Mop/s/process   =                    20.17
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -1989,7 +1989,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     13.4832
+ Initialization time =     12.7848
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2018,15 +2018,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   241.64
+ Time in seconds =                   231.35
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1640.41
- Mop/s/process   =                    25.63
+ Mop/s total     =                  1713.39
+ Mop/s/process   =                    26.77
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -2055,7 +2055,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     13.9866
+ Initialization time =     14.4185
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2084,15 +2084,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   231.59
+ Time in seconds =                   234.13
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1711.60
- Mop/s/process   =                    26.74
+ Mop/s total     =                  1693.06
+ Mop/s/process   =                    26.45
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -2121,7 +2121,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     12.5806
+ Initialization time =     14.8297
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2150,15 +2150,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   229.96
+ Time in seconds =                   237.08
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1723.72
- Mop/s/process   =                    26.93
+ Mop/s total     =                  1671.97
+ Mop/s/process   =                    26.12
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -2187,7 +2187,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     15.8429
+ Initialization time =     14.7857
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2216,15 +2216,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   242.66
+ Time in seconds =                   236.57
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1633.49
- Mop/s/process   =                    25.52
+ Mop/s total     =                  1675.56
+ Mop/s/process   =                    26.18
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -2253,7 +2253,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     11.6678
+ Initialization time =     13.9356
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2282,15 +2282,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   228.14
+ Time in seconds =                   226.41
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1737.48
- Mop/s/process   =                    27.15
+ Mop/s total     =                  1750.77
+ Mop/s/process   =                    27.36
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -2319,7 +2319,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     13.6360
+ Initialization time =     14.5995
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2348,15 +2348,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   236.00
+ Time in seconds =                   233.32
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1679.61
- Mop/s/process   =                    26.24
+ Mop/s total     =                  1698.90
+ Mop/s/process   =                    26.55
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -2385,7 +2385,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     15.4639
+ Initialization time =     13.3530
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2414,15 +2414,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   238.31
+ Time in seconds =                   232.97
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1663.36
- Mop/s/process   =                    25.99
+ Mop/s total     =                  1701.45
+ Mop/s/process   =                    26.59
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -2451,7 +2451,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     13.1677
+ Initialization time =     14.7744
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2480,15 +2480,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   225.55
+ Time in seconds =                   237.73
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1757.44
- Mop/s/process   =                    27.46
+ Mop/s total     =                  1667.40
+ Mop/s/process   =                    26.05
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -2517,7 +2517,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     14.4692
+ Initialization time =     14.5854
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2546,15 +2546,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   225.66
+ Time in seconds =                   235.51
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1756.55
- Mop/s/process   =                    27.45
+ Mop/s total     =                  1683.07
+ Mop/s/process   =                    26.30
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort
@@ -2583,7 +2583,7 @@
  Processor array     :         1x  64
  Layout type         :             1D
 
- Initialization time =     15.4597
+ Initialization time =     13.3909
 
  T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
  T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
@@ -2612,15 +2612,15 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                   238.41
+ Time in seconds =                   232.19
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                  1662.66
- Mop/s/process   =                    25.98
+ Mop/s total     =                  1707.14
+ Mop/s/process   =                    26.67
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPIFC        = mpifort

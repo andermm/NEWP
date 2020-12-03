@@ -23,15 +23,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    40.96
+ Time in seconds =                    35.28
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    32.77
- Mop/s/process   =                     2.05
+ Mop/s total     =                    38.04
+ Mop/s/process   =                     2.38
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -73,15 +73,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    39.01
+ Time in seconds =                    35.15
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    34.41
- Mop/s/process   =                     2.15
+ Mop/s total     =                    38.18
+ Mop/s/process   =                     2.39
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -123,15 +123,415 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    37.61
+ Time in seconds =                    33.69
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    35.69
+ Mop/s total     =                    39.84
+ Mop/s/process   =                     2.49
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  16
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    34.85
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                    38.52
+ Mop/s/process   =                     2.41
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  16
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    34.24
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                    39.20
+ Mop/s/process   =                     2.45
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  16
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    34.24
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                    39.20
+ Mop/s/process   =                     2.45
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  16
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    33.26
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                    40.35
+ Mop/s/process   =                     2.52
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  16
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    33.63
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                    39.91
+ Mop/s/process   =                     2.49
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  16
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    34.39
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                    39.02
+ Mop/s/process   =                     2.44
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  16
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    31.96
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                    41.99
+ Mop/s/process   =                     2.62
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  16
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    37.59
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                    35.71
  Mop/s/process   =                     2.23
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -173,15 +573,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    38.08
+ Time in seconds =                    37.34
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    35.24
- Mop/s/process   =                     2.20
+ Mop/s total     =                    35.95
+ Mop/s/process   =                     2.25
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -223,15 +623,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    37.78
+ Time in seconds =                    36.05
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    35.53
- Mop/s/process   =                     2.22
+ Mop/s total     =                    37.24
+ Mop/s/process   =                     2.33
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -273,15 +673,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    37.95
+ Time in seconds =                    35.68
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    35.37
- Mop/s/process   =                     2.21
+ Mop/s total     =                    37.62
+ Mop/s/process   =                     2.35
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -323,15 +723,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    37.46
+ Time in seconds =                    37.07
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    35.83
- Mop/s/process   =                     2.24
+ Mop/s total     =                    36.20
+ Mop/s/process   =                     2.26
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -373,15 +773,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    39.69
+ Time in seconds =                    33.78
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    33.82
- Mop/s/process   =                     2.11
+ Mop/s total     =                    39.74
+ Mop/s/process   =                     2.48
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -423,15 +823,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    38.81
+ Time in seconds =                    33.25
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    34.59
- Mop/s/process   =                     2.16
+ Mop/s total     =                    40.37
+ Mop/s/process   =                     2.52
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -473,15 +873,65 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    38.53
+ Time in seconds =                    33.77
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    34.83
+ Mop/s total     =                    39.74
+ Mop/s/process   =                     2.48
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  16
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    38.46
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                    34.90
  Mop/s/process   =                     2.18
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -523,465 +973,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    41.93
+ Time in seconds =                    39.95
  Total processes =                       16
  Active processes=                       16
- Mop/s total     =                    32.01
- Mop/s/process   =                     2.00
+ Mop/s total     =                    33.60
+ Mop/s/process   =                     2.10
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  16
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    41.04
- Total processes =                       16
- Active processes=                       16
- Mop/s total     =                    32.70
- Mop/s/process   =                     2.04
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  16
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    39.82
- Total processes =                       16
- Active processes=                       16
- Mop/s total     =                    33.71
- Mop/s/process   =                     2.11
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  16
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    41.43
- Total processes =                       16
- Active processes=                       16
- Mop/s total     =                    32.40
- Mop/s/process   =                     2.02
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  16
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    41.06
- Total processes =                       16
- Active processes=                       16
- Mop/s total     =                    32.69
- Mop/s/process   =                     2.04
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  16
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    40.34
- Total processes =                       16
- Active processes=                       16
- Mop/s total     =                    33.27
- Mop/s/process   =                     2.08
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  16
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    41.19
- Total processes =                       16
- Active processes=                       16
- Mop/s total     =                    32.59
- Mop/s/process   =                     2.04
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  16
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    40.10
- Total processes =                       16
- Active processes=                       16
- Mop/s total     =                    33.47
- Mop/s/process   =                     2.09
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  16
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    42.82
- Total processes =                       16
- Active processes=                       16
- Mop/s total     =                    31.35
- Mop/s/process   =                     1.96
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  16
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    42.63
- Total processes =                       16
- Active processes=                       16
- Mop/s total     =                    31.49
- Mop/s/process   =                     1.97
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1023,15 +1023,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    42.76
+ Time in seconds =                    49.90
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    31.39
- Mop/s/process   =                     0.49
+ Mop/s total     =                    26.90
+ Mop/s/process   =                     0.42
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1073,15 +1073,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    43.88
+ Time in seconds =                    47.82
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    30.58
- Mop/s/process   =                     0.48
+ Mop/s total     =                    28.07
+ Mop/s/process   =                     0.44
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1123,15 +1123,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    43.32
+ Time in seconds =                    49.16
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    30.98
- Mop/s/process   =                     0.48
+ Mop/s total     =                    27.30
+ Mop/s/process   =                     0.43
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1173,15 +1173,65 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    45.16
+ Time in seconds =                    46.22
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    29.72
+ Mop/s total     =                    29.04
+ Mop/s/process   =                     0.45
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  64
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    45.69
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                    29.38
  Mop/s/process   =                     0.46
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1223,15 +1273,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    42.81
+ Time in seconds =                    48.52
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    31.35
- Mop/s/process   =                     0.49
+ Mop/s total     =                    27.66
+ Mop/s/process   =                     0.43
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1273,15 +1323,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    41.66
+ Time in seconds =                    47.83
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    32.22
- Mop/s/process   =                     0.50
+ Mop/s total     =                    28.06
+ Mop/s/process   =                     0.44
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1323,15 +1373,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    43.68
+ Time in seconds =                    48.48
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    30.73
- Mop/s/process   =                     0.48
+ Mop/s total     =                    27.68
+ Mop/s/process   =                     0.43
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1373,15 +1423,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    44.40
+ Time in seconds =                    48.03
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    30.23
- Mop/s/process   =                     0.47
+ Mop/s total     =                    27.95
+ Mop/s/process   =                     0.44
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1423,15 +1473,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    43.09
+ Time in seconds =                    47.90
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    31.15
- Mop/s/process   =                     0.49
+ Mop/s total     =                    28.02
+ Mop/s/process   =                     0.44
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1473,15 +1523,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    42.70
+ Time in seconds =                    65.24
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    31.43
- Mop/s/process   =                     0.49
+ Mop/s total     =                    20.57
+ Mop/s/process   =                     0.32
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1523,15 +1573,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    52.13
+ Time in seconds =                    64.37
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    25.75
- Mop/s/process   =                     0.40
+ Mop/s total     =                    20.85
+ Mop/s/process   =                     0.33
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1573,15 +1623,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    57.30
+ Time in seconds =                    66.88
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    23.42
- Mop/s/process   =                     0.37
+ Mop/s total     =                    20.07
+ Mop/s/process   =                     0.31
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1623,115 +1673,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    57.01
+ Time in seconds =                    57.78
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    23.54
- Mop/s/process   =                     0.37
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  64
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    52.25
- Total processes =                       64
- Active processes=                       64
- Mop/s total     =                    25.69
- Mop/s/process   =                     0.40
- Operation type  =              keys ranked
- Verification    =               SUCCESSFUL
- Version         =                    3.4.1
- Compile date    =              29 Nov 2020
-
- Compile options:
-    MPICC        = mpicc
-    CLINK        = $(MPICC)
-    CMPI_LIB     = (none)
-    CMPI_INC     = (none)
-    CFLAGS       = -O3
-    CLINKFLAGS   = $(CFLAGS)
-
-
- Please send feedbacks and/or the results of this run to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
-
-
- NAS Parallel Benchmarks 3.4 -- IS Benchmark
-
- Size:  134217728  (class C)
- Iterations:   10
- Total number of processes:  64
-
-   iteration
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-
-
- IS Benchmark Completed
- Class           =                        C
- Size            =                134217728
- Iterations      =                       10
- Time in seconds =                    57.66
- Total processes =                       64
- Active processes=                       64
- Mop/s total     =                    23.28
+ Mop/s total     =                    23.23
  Mop/s/process   =                     0.36
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1773,15 +1723,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    53.33
+ Time in seconds =                    62.26
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    25.17
- Mop/s/process   =                     0.39
+ Mop/s total     =                    21.56
+ Mop/s/process   =                     0.34
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1823,15 +1773,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    52.04
+ Time in seconds =                    66.01
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    25.79
- Mop/s/process   =                     0.40
+ Mop/s total     =                    20.33
+ Mop/s/process   =                     0.32
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1873,15 +1823,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    56.33
+ Time in seconds =                    63.94
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    23.83
- Mop/s/process   =                     0.37
+ Mop/s total     =                    20.99
+ Mop/s/process   =                     0.33
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1923,15 +1873,15 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    55.32
+ Time in seconds =                    61.56
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    24.26
- Mop/s/process   =                     0.38
+ Mop/s total     =                    21.80
+ Mop/s/process   =                     0.34
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc
@@ -1973,15 +1923,65 @@
  Class           =                        C
  Size            =                134217728
  Iterations      =                       10
- Time in seconds =                    56.75
+ Time in seconds =                    64.26
  Total processes =                       64
  Active processes=                       64
- Mop/s total     =                    23.65
- Mop/s/process   =                     0.37
+ Mop/s total     =                    20.89
+ Mop/s/process   =                     0.33
  Operation type  =              keys ranked
  Verification    =               SUCCESSFUL
  Version         =                    3.4.1
- Compile date    =              29 Nov 2020
+ Compile date    =              01 Dec 2020
+
+ Compile options:
+    MPICC        = mpicc
+    CLINK        = $(MPICC)
+    CMPI_LIB     = (none)
+    CMPI_INC     = (none)
+    CFLAGS       = -O3
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:   10
+ Total number of processes:  64
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                    64.23
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                    20.90
+ Mop/s/process   =                     0.33
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              01 Dec 2020
 
  Compile options:
     MPICC        = mpicc

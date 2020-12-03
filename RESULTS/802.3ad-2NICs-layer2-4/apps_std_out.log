@@ -115,7 +115,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:23:34 -03 2020
+Tue Dec  1 10:31:41 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -133,7 +133,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:24:30 -03 2020
+Tue Dec  1 10:32:27 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -151,7 +151,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:25:23 -03 2020
+Tue Dec  1 10:33:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -169,7 +169,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:26:17 -03 2020
+Tue Dec  1 10:33:55 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -187,7 +187,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:27:11 -03 2020
+Tue Dec  1 10:34:40 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -205,7 +205,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:28:05 -03 2020
+Tue Dec  1 10:35:25 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -223,7 +223,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:28:59 -03 2020
+Tue Dec  1 10:36:08 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -241,7 +241,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:29:52 -03 2020
+Tue Dec  1 10:36:51 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -259,7 +259,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:30:47 -03 2020
+Tue Dec  1 10:37:35 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -277,7 +277,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:31:43 -03 2020
+Tue Dec  1 10:38:20 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -294,7 +294,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:32:39 -03 2020
+Tue Dec  1 10:39:04 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -312,7 +312,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:40:16 -03 2020
+Tue Dec  1 10:44:20 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -330,7 +330,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:47:07 -03 2020
+Tue Dec  1 10:49:29 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -348,7 +348,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 13:54:02 -03 2020
+Tue Dec  1 10:54:59 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -366,7 +366,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:01:18 -03 2020
+Tue Dec  1 11:00:37 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -384,7 +384,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:08:15 -03 2020
+Tue Dec  1 11:06:09 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -402,7 +402,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:15:09 -03 2020
+Tue Dec  1 11:11:15 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -420,7 +420,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:22:01 -03 2020
+Tue Dec  1 11:16:55 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -438,7 +438,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:28:59 -03 2020
+Tue Dec  1 11:22:13 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -456,7 +456,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:36:01 -03 2020
+Tue Dec  1 11:27:25 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -473,7 +473,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:42:44 -03 2020
+Tue Dec  1 11:32:51 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -491,7 +491,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:43:43 -03 2020
+Tue Dec  1 11:33:40 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -509,7 +509,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:44:39 -03 2020
+Tue Dec  1 11:34:29 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -527,7 +527,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:45:34 -03 2020
+Tue Dec  1 11:35:16 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -545,7 +545,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:46:31 -03 2020
+Tue Dec  1 11:36:04 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -563,7 +563,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:47:28 -03 2020
+Tue Dec  1 11:36:51 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -581,7 +581,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:48:24 -03 2020
+Tue Dec  1 11:37:36 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -599,7 +599,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:49:22 -03 2020
+Tue Dec  1 11:38:20 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -617,7 +617,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:50:19 -03 2020
+Tue Dec  1 11:39:05 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -635,7 +635,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:51:17 -03 2020
+Tue Dec  1 11:39:55 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -652,7 +652,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:52:16 -03 2020
+Tue Dec  1 11:40:47 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -670,7 +670,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 14:58:42 -03 2020
+Tue Dec  1 11:45:39 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -688,7 +688,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 15:05:12 -03 2020
+Tue Dec  1 11:50:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -706,7 +706,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 15:11:37 -03 2020
+Tue Dec  1 11:55:10 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -724,7 +724,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 15:18:08 -03 2020
+Tue Dec  1 11:59:53 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -742,7 +742,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 15:24:35 -03 2020
+Tue Dec  1 12:04:35 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -760,7 +760,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 15:31:01 -03 2020
+Tue Dec  1 12:09:15 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -778,7 +778,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 15:37:29 -03 2020
+Tue Dec  1 12:14:11 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -796,7 +796,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 15:43:57 -03 2020
+Tue Dec  1 12:19:00 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -814,7 +814,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 15:50:26 -03 2020
+Tue Dec  1 12:23:51 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -831,7 +831,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 15:56:53 -03 2020
+Tue Dec  1 12:28:32 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -849,7 +849,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 16:09:03 -03 2020
+Tue Dec  1 12:36:04 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -867,7 +867,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 16:21:17 -03 2020
+Tue Dec  1 12:43:38 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -885,7 +885,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 16:33:31 -03 2020
+Tue Dec  1 12:51:08 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -903,7 +903,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 16:45:37 -03 2020
+Tue Dec  1 12:58:35 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -921,7 +921,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 16:57:46 -03 2020
+Tue Dec  1 13:06:04 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -939,7 +939,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 17:09:58 -03 2020
+Tue Dec  1 13:13:23 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -957,7 +957,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 17:22:10 -03 2020
+Tue Dec  1 13:20:47 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -975,7 +975,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 17:34:20 -03 2020
+Tue Dec  1 13:28:09 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -993,7 +993,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 17:46:31 -03 2020
+Tue Dec  1 13:35:26 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1010,7 +1010,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 17:58:41 -03 2020
+Tue Dec  1 13:43:01 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1028,7 +1028,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 18:10:14 -03 2020
+Tue Dec  1 13:51:35 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1046,7 +1046,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 18:21:49 -03 2020
+Tue Dec  1 14:00:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1064,7 +1064,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 18:33:20 -03 2020
+Tue Dec  1 14:08:41 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1082,7 +1082,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 18:44:58 -03 2020
+Tue Dec  1 14:17:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1100,7 +1100,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 18:56:26 -03 2020
+Tue Dec  1 14:25:42 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1118,7 +1118,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 19:08:09 -03 2020
+Tue Dec  1 14:34:14 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1136,7 +1136,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 19:19:38 -03 2020
+Tue Dec  1 14:42:50 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1154,7 +1154,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 19:31:08 -03 2020
+Tue Dec  1 14:51:15 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1172,7 +1172,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 19:42:35 -03 2020
+Tue Dec  1 14:59:42 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1189,7 +1189,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 19:54:02 -03 2020
+Tue Dec  1 15:08:06 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1207,7 +1207,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 20:06:45 -03 2020
+Tue Dec  1 15:16:00 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1225,7 +1225,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 20:19:24 -03 2020
+Tue Dec  1 15:23:50 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1243,7 +1243,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 20:32:00 -03 2020
+Tue Dec  1 15:31:26 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1261,7 +1261,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 20:44:44 -03 2020
+Tue Dec  1 15:39:26 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1279,7 +1279,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 20:57:29 -03 2020
+Tue Dec  1 15:47:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1297,7 +1297,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 21:10:10 -03 2020
+Tue Dec  1 15:54:49 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1315,7 +1315,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 21:22:55 -03 2020
+Tue Dec  1 16:02:40 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1333,7 +1333,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 21:35:38 -03 2020
+Tue Dec  1 16:10:23 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1351,7 +1351,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 21:48:21 -03 2020
+Tue Dec  1 16:18:03 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1368,7 +1368,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 22:01:09 -03 2020
+Tue Dec  1 16:26:01 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1386,7 +1386,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 22:13:34 -03 2020
+Tue Dec  1 16:35:25 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1404,7 +1404,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 22:25:50 -03 2020
+Tue Dec  1 16:44:32 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1422,7 +1422,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 22:38:03 -03 2020
+Tue Dec  1 16:53:56 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1440,7 +1440,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 22:50:15 -03 2020
+Tue Dec  1 17:03:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1458,7 +1458,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 23:02:21 -03 2020
+Tue Dec  1 17:12:14 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1476,7 +1476,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 23:14:31 -03 2020
+Tue Dec  1 17:21:33 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1494,7 +1494,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 23:26:44 -03 2020
+Tue Dec  1 17:30:46 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1512,7 +1512,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 23:39:10 -03 2020
+Tue Dec  1 17:39:57 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1530,7 +1530,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Sun Nov 29 23:51:25 -03 2020
+Tue Dec  1 17:49:14 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1547,7 +1547,7 @@ rm: cannot remove 'sp_71_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 00:03:41 -03 2020
+Tue Dec  1 17:58:30 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1565,7 +1565,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 00:15:49 -03 2020
+Tue Dec  1 18:05:28 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1583,7 +1583,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 00:28:01 -03 2020
+Tue Dec  1 18:12:42 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1601,7 +1601,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 00:40:15 -03 2020
+Tue Dec  1 18:19:53 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1619,7 +1619,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 00:52:30 -03 2020
+Tue Dec  1 18:27:09 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1637,7 +1637,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 01:04:41 -03 2020
+Tue Dec  1 18:34:23 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1655,7 +1655,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 01:16:55 -03 2020
+Tue Dec  1 18:41:44 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1673,7 +1673,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 01:29:05 -03 2020
+Tue Dec  1 18:48:56 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1691,7 +1691,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 01:41:17 -03 2020
+Tue Dec  1 18:56:11 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1709,7 +1709,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 01:53:33 -03 2020
+Tue Dec  1 19:03:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1726,7 +1726,7 @@ rm: cannot remove 'sp_71_16': No such file or directory
 rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 02:05:47 -03 2020
+Tue Dec  1 19:10:31 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1744,7 +1744,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 02:18:52 -03 2020
+Tue Dec  1 19:20:26 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1762,7 +1762,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 02:32:03 -03 2020
+Tue Dec  1 19:30:27 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1780,7 +1780,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 02:45:50 -03 2020
+Tue Dec  1 19:40:49 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1798,7 +1798,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 02:59:25 -03 2020
+Tue Dec  1 19:51:05 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1816,7 +1816,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 03:12:35 -03 2020
+Tue Dec  1 20:01:49 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1834,7 +1834,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 03:25:44 -03 2020
+Tue Dec  1 20:11:56 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1852,7 +1852,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 03:38:43 -03 2020
+Tue Dec  1 20:21:51 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1870,7 +1870,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 03:51:36 -03 2020
+Tue Dec  1 20:31:48 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1888,7 +1888,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 04:04:43 -03 2020
+Tue Dec  1 20:42:19 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1905,7 +1905,7 @@ rm: cannot remove 'sp_71_16': No such file or directory
 rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 04:18:02 -03 2020
+Tue Dec  1 20:52:08 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1923,7 +1923,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 04:31:28 -03 2020
+Tue Dec  1 21:00:00 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1941,7 +1941,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 04:44:33 -03 2020
+Tue Dec  1 21:08:15 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1959,7 +1959,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 04:57:27 -03 2020
+Tue Dec  1 21:16:31 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1977,7 +1977,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 05:10:27 -03 2020
+Tue Dec  1 21:24:48 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -1995,7 +1995,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 05:23:36 -03 2020
+Tue Dec  1 21:32:59 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2013,7 +2013,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 05:36:39 -03 2020
+Tue Dec  1 21:41:20 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2031,7 +2031,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 05:49:31 -03 2020
+Tue Dec  1 21:49:02 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2049,7 +2049,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 06:02:27 -03 2020
+Tue Dec  1 21:57:19 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2067,7 +2067,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 06:15:21 -03 2020
+Tue Dec  1 22:05:30 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2084,7 +2084,7 @@ rm: cannot remove 'sp_71_16': No such file or directory
 rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
-Mon Nov 30 06:28:22 -03 2020
+Tue Dec  1 22:13:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2102,7 +2102,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 06:40:15 -03 2020
+Tue Dec  1 22:21:48 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2120,7 +2120,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 06:51:45 -03 2020
+Tue Dec  1 22:29:59 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2138,7 +2138,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 07:03:30 -03 2020
+Tue Dec  1 22:38:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2156,7 +2156,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 07:15:14 -03 2020
+Tue Dec  1 22:46:38 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2174,7 +2174,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 07:26:49 -03 2020
+Tue Dec  1 22:54:53 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2192,7 +2192,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 07:38:26 -03 2020
+Tue Dec  1 23:03:19 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2210,7 +2210,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 07:50:11 -03 2020
+Tue Dec  1 23:11:37 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2228,7 +2228,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 08:01:43 -03 2020
+Tue Dec  1 23:19:50 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2246,7 +2246,7 @@ rm: cannot remove 'bt_81_16': No such file or directory
 rm: cannot remove 'sp_91_16': No such file or directory
 rm: cannot remove 'bt_101_16': No such file or directory
 rm: cannot remove 'sp_111_16': No such file or directory
-Mon Nov 30 08:13:14 -03 2020
+Tue Dec  1 23:28:05 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 16 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes16_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2263,7 +2263,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:25:02 -03 2020
+Tue Dec  1 23:36:09 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2281,7 +2281,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:25:59 -03 2020
+Tue Dec  1 23:37:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2299,7 +2299,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:26:57 -03 2020
+Tue Dec  1 23:38:16 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2317,7 +2317,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:27:54 -03 2020
+Tue Dec  1 23:39:20 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2335,7 +2335,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:28:53 -03 2020
+Tue Dec  1 23:40:21 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2353,7 +2353,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:29:50 -03 2020
+Tue Dec  1 23:41:22 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2371,7 +2371,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:30:45 -03 2020
+Tue Dec  1 23:42:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2389,7 +2389,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:31:42 -03 2020
+Tue Dec  1 23:43:27 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2407,7 +2407,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:32:41 -03 2020
+Tue Dec  1 23:44:29 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2425,7 +2425,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:33:38 -03 2020
+Tue Dec  1 23:45:32 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2442,7 +2442,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:34:36 -03 2020
+Tue Dec  1 23:46:37 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2460,7 +2460,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:39:53 -03 2020
+Tue Dec  1 23:52:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2478,7 +2478,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:45:05 -03 2020
+Tue Dec  1 23:58:14 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2496,7 +2496,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:50:12 -03 2020
+Wed Dec  2 00:03:56 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2514,7 +2514,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 08:55:39 -03 2020
+Wed Dec  2 00:09:47 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2532,7 +2532,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:00:44 -03 2020
+Wed Dec  2 00:15:34 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2550,7 +2550,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:06:12 -03 2020
+Wed Dec  2 00:20:48 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2568,7 +2568,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:11:16 -03 2020
+Wed Dec  2 00:26:33 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2586,7 +2586,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:16:26 -03 2020
+Wed Dec  2 00:32:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2604,7 +2604,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:21:40 -03 2020
+Wed Dec  2 00:37:49 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2621,7 +2621,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:26:57 -03 2020
+Wed Dec  2 00:43:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2639,7 +2639,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:28:03 -03 2020
+Wed Dec  2 00:44:49 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2657,7 +2657,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:29:19 -03 2020
+Wed Dec  2 00:46:10 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2675,7 +2675,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:30:33 -03 2020
+Wed Dec  2 00:47:38 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2693,7 +2693,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:31:39 -03 2020
+Wed Dec  2 00:48:55 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2711,7 +2711,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:32:52 -03 2020
+Wed Dec  2 00:50:14 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2729,7 +2729,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:34:04 -03 2020
+Wed Dec  2 00:51:38 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2747,7 +2747,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:35:10 -03 2020
+Wed Dec  2 00:52:58 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2765,7 +2765,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:36:20 -03 2020
+Wed Dec  2 00:54:17 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2783,7 +2783,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:37:31 -03 2020
+Wed Dec  2 00:55:36 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/is.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/is.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2800,7 +2800,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:38:45 -03 2020
+Wed Dec  2 00:56:57 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2818,7 +2818,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:43:04 -03 2020
+Wed Dec  2 01:01:05 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2836,7 +2836,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:47:13 -03 2020
+Wed Dec  2 01:05:18 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2854,7 +2854,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:51:19 -03 2020
+Wed Dec  2 01:09:33 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2872,7 +2872,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:55:42 -03 2020
+Wed Dec  2 01:13:47 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2890,7 +2890,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 09:59:45 -03 2020
+Wed Dec  2 01:17:52 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2908,7 +2908,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 10:03:58 -03 2020
+Wed Dec  2 01:22:03 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2926,7 +2926,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 10:08:16 -03 2020
+Wed Dec  2 01:26:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2944,7 +2944,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 10:12:18 -03 2020
+Wed Dec  2 01:30:28 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2962,7 +2962,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 10:16:21 -03 2020
+Wed Dec  2 01:34:42 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/ft.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/ft.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2979,7 +2979,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 10:20:41 -03 2020
+Wed Dec  2 01:38:54 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -2997,7 +2997,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 10:28:54 -03 2020
+Wed Dec  2 01:47:00 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3015,7 +3015,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 10:37:04 -03 2020
+Wed Dec  2 01:55:41 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3033,7 +3033,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 10:45:06 -03 2020
+Wed Dec  2 02:04:26 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3051,7 +3051,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 10:53:19 -03 2020
+Wed Dec  2 02:12:43 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3069,7 +3069,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 11:01:34 -03 2020
+Wed Dec  2 02:21:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3087,7 +3087,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 11:09:35 -03 2020
+Wed Dec  2 02:29:18 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3105,7 +3105,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 11:17:47 -03 2020
+Wed Dec  2 02:37:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3123,7 +3123,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 11:26:02 -03 2020
+Wed Dec  2 02:46:00 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3141,7 +3141,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 11:34:12 -03 2020
+Wed Dec  2 02:54:17 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3158,7 +3158,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 11:42:34 -03 2020
+Wed Dec  2 03:02:34 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3176,7 +3176,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 11:54:48 -03 2020
+Wed Dec  2 03:15:59 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3194,7 +3194,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 12:07:05 -03 2020
+Wed Dec  2 03:29:13 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3212,7 +3212,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 12:19:14 -03 2020
+Wed Dec  2 03:42:34 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3230,7 +3230,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 12:31:39 -03 2020
+Wed Dec  2 03:55:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3248,7 +3248,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 12:44:03 -03 2020
+Wed Dec  2 04:08:38 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3266,7 +3266,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 12:56:06 -03 2020
+Wed Dec  2 04:21:52 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3284,7 +3284,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 13:08:21 -03 2020
+Wed Dec  2 04:34:42 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3302,7 +3302,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 13:20:26 -03 2020
+Wed Dec  2 04:48:22 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3320,7 +3320,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 13:32:40 -03 2020
+Wed Dec  2 05:01:38 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3337,7 +3337,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 13:44:46 -03 2020
+Wed Dec  2 05:14:57 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3355,7 +3355,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 13:53:40 -03 2020
+Wed Dec  2 05:24:25 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3373,7 +3373,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 14:02:18 -03 2020
+Wed Dec  2 05:33:48 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3391,7 +3391,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 14:10:57 -03 2020
+Wed Dec  2 05:43:06 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3409,7 +3409,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 14:19:44 -03 2020
+Wed Dec  2 05:52:30 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3427,7 +3427,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 14:28:31 -03 2020
+Wed Dec  2 06:01:39 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3445,7 +3445,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 14:37:21 -03 2020
+Wed Dec  2 06:11:00 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3463,7 +3463,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 14:46:03 -03 2020
+Wed Dec  2 06:20:18 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3481,7 +3481,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 14:55:13 -03 2020
+Wed Dec  2 06:29:41 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3499,7 +3499,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 15:03:57 -03 2020
+Wed Dec  2 06:38:57 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3516,7 +3516,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 15:12:48 -03 2020
+Wed Dec  2 06:48:39 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3534,7 +3534,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 15:26:24 -03 2020
+Wed Dec  2 07:03:44 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3552,7 +3552,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 15:39:36 -03 2020
+Wed Dec  2 07:18:22 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3570,7 +3570,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 15:53:03 -03 2020
+Wed Dec  2 07:32:57 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3588,7 +3588,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 16:06:16 -03 2020
+Wed Dec  2 07:47:42 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3606,7 +3606,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 16:19:06 -03 2020
+Wed Dec  2 08:02:27 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3624,7 +3624,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 16:31:59 -03 2020
+Wed Dec  2 08:16:49 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3642,7 +3642,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 16:44:56 -03 2020
+Wed Dec  2 08:31:27 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3660,7 +3660,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 16:58:04 -03 2020
+Wed Dec  2 08:45:45 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3678,7 +3678,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 17:11:09 -03 2020
+Wed Dec  2 09:00:36 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3695,7 +3695,7 @@ rm: cannot remove 'sp_191_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 17:24:13 -03 2020
+Wed Dec  2 09:15:09 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3713,7 +3713,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 17:32:09 -03 2020
+Wed Dec  2 09:23:52 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3731,7 +3731,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 17:40:11 -03 2020
+Wed Dec  2 09:32:22 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3749,7 +3749,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 17:48:10 -03 2020
+Wed Dec  2 09:40:57 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3767,7 +3767,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 17:56:03 -03 2020
+Wed Dec  2 09:49:34 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3785,7 +3785,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 18:04:09 -03 2020
+Wed Dec  2 09:57:59 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3803,7 +3803,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 18:12:10 -03 2020
+Wed Dec  2 10:06:28 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3821,7 +3821,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 18:20:13 -03 2020
+Wed Dec  2 10:14:52 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3839,7 +3839,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 18:28:51 -03 2020
+Wed Dec  2 10:23:24 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3857,7 +3857,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 18:37:34 -03 2020
+Wed Dec  2 10:32:10 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3874,7 +3874,7 @@ rm: cannot remove 'sp_191_64': No such file or directory
 rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 18:46:24 -03 2020
+Wed Dec  2 10:40:43 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3892,7 +3892,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 18:59:04 -03 2020
+Wed Dec  2 10:54:21 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3910,7 +3910,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 19:11:31 -03 2020
+Wed Dec  2 11:07:56 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3928,7 +3928,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 19:24:09 -03 2020
+Wed Dec  2 11:21:37 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3946,7 +3946,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 19:36:40 -03 2020
+Wed Dec  2 11:35:51 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3964,7 +3964,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 19:49:14 -03 2020
+Wed Dec  2 11:49:34 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -3982,7 +3982,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 20:01:28 -03 2020
+Wed Dec  2 12:03:32 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4000,7 +4000,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 20:14:07 -03 2020
+Wed Dec  2 12:17:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4018,7 +4018,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 20:26:35 -03 2020
+Wed Dec  2 12:30:58 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4036,7 +4036,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 20:38:49 -03 2020
+Wed Dec  2 12:44:49 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4053,7 +4053,7 @@ rm: cannot remove 'sp_191_64': No such file or directory
 rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 20:51:12 -03 2020
+Wed Dec  2 12:58:22 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4071,7 +4071,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 20:59:17 -03 2020
+Wed Dec  2 13:07:13 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4089,7 +4089,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 21:07:43 -03 2020
+Wed Dec  2 13:15:36 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4107,7 +4107,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 21:15:58 -03 2020
+Wed Dec  2 13:24:11 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4125,7 +4125,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 21:24:11 -03 2020
+Wed Dec  2 13:33:56 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4143,7 +4143,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 21:33:01 -03 2020
+Wed Dec  2 13:42:39 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4161,7 +4161,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 21:41:18 -03 2020
+Wed Dec  2 13:51:12 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4179,7 +4179,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 21:49:38 -03 2020
+Wed Dec  2 13:59:47 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4197,7 +4197,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 21:57:50 -03 2020
+Wed Dec  2 14:08:30 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4215,7 +4215,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 22:06:04 -03 2020
+Wed Dec  2 14:17:17 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/bt.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/bt.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4232,7 +4232,7 @@ rm: cannot remove 'sp_191_64': No such file or directory
 rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
-Mon Nov 30 22:14:29 -03 2020
+Wed Dec  2 14:26:02 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4250,7 +4250,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 22:26:44 -03 2020
+Wed Dec  2 14:39:47 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4268,7 +4268,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 22:39:11 -03 2020
+Wed Dec  2 14:53:42 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4286,7 +4286,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 22:51:46 -03 2020
+Wed Dec  2 15:07:36 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4304,7 +4304,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 23:04:19 -03 2020
+Wed Dec  2 15:20:33 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4322,7 +4322,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 23:16:25 -03 2020
+Wed Dec  2 15:33:33 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4340,7 +4340,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 23:29:04 -03 2020
+Wed Dec  2 15:46:46 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4358,7 +4358,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 23:41:30 -03 2020
+Wed Dec  2 15:59:52 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4376,7 +4376,7 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Mon Nov 30 23:53:56 -03 2020
+Wed Dec  2 16:13:13 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
 
@@ -4394,6 +4394,6 @@ rm: cannot remove 'bt_201_64': No such file or directory
 rm: cannot remove 'sp_211_64': No such file or directory
 rm: cannot remove 'bt_221_64': No such file or directory
 rm: cannot remove 'sp_231_64': No such file or directory
-Tue Dec  1 00:06:09 -03 2020
+Wed Dec  2 16:26:43 -03 2020
 Executing >> mpiexec --mca btl self,tcp --mca btl_tcp_if_include eth0 -np 64 -machinefile /home/lacp/NEWP/MACHINE_FILES/nodes64_LACP10 /home/lacp/NEWP/BENCHMARKS/NPB3.4.1/NPB3.4-MPI/bin/sp.C.x 2>> /home/lacp/NEWP/LOGS/apps_exec_std_error &> >(tee -a /home/lacp/NEWP/LOGS/LOGS_BACKUP/sp.802.3ad-4NICs-layer2.log > /tmp/nas.out) <<
 Done!
