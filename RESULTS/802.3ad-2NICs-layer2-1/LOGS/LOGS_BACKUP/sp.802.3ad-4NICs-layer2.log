@@ -1,0 +1,6160 @@
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.32
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7501.09
+ Mop/s/process   =                   468.82
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.77
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7483.64
+ Mop/s/process   =                   467.73
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.08
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7510.43
+ Mop/s/process   =                   469.40
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.55
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7492.03
+ Mop/s/process   =                   468.25
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.93
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7477.42
+ Mop/s/process   =                   467.34
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   192.86
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7518.91
+ Mop/s/process   =                   469.93
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   194.15
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7469.16
+ Mop/s/process   =                   466.82
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   194.20
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7466.91
+ Mop/s/process   =                   466.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   194.00
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7474.84
+ Mop/s/process   =                   467.18
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   192.51
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7532.45
+ Mop/s/process   =                   470.78
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.63
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7488.91
+ Mop/s/process   =                   468.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.47
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7495.03
+ Mop/s/process   =                   468.44
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   194.27
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7464.20
+ Mop/s/process   =                   466.51
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.46
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7495.69
+ Mop/s/process   =                   468.48
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.64
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7488.47
+ Mop/s/process   =                   468.03
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.10
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7509.43
+ Mop/s/process   =                   469.34
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.60
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7490.30
+ Mop/s/process   =                   468.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.33
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7500.49
+ Mop/s/process   =                   468.78
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   192.59
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7529.53
+ Mop/s/process   =                   470.60
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.45
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7495.97
+ Mop/s/process   =                   468.50
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.25
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7503.74
+ Mop/s/process   =                   468.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   192.51
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7532.41
+ Mop/s/process   =                   470.78
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.24
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7504.06
+ Mop/s/process   =                   469.00
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.49
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7494.50
+ Mop/s/process   =                   468.41
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   194.17
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7468.14
+ Mop/s/process   =                   466.76
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.13
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7508.50
+ Mop/s/process   =                   469.28
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.66
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7487.72
+ Mop/s/process   =                   467.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.81
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7481.93
+ Mop/s/process   =                   467.62
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   192.86
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7519.12
+ Mop/s/process   =                   469.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.56
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7491.69
+ Mop/s/process   =                   468.23
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.70
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7486.29
+ Mop/s/process   =                   467.89
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.51
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7493.50
+ Mop/s/process   =                   468.34
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.58
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7490.78
+ Mop/s/process   =                   468.17
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.18
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7506.55
+ Mop/s/process   =                   469.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.00
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7513.37
+ Mop/s/process   =                   469.59
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   193.70
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7486.31
+ Mop/s/process   =                   467.89
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   192.56
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7530.50
+ Mop/s/process   =                   470.66
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   194.04
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7473.06
+ Mop/s/process   =                   467.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   192.79
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7521.60
+ Mop/s/process   =                   470.10
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7171035102389E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4550868519647E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3572312654614E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1375931953468E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3153005475197E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1410148598190E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1716720062406E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3649995737482E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8662656557621E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.6985237549363E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   191.99
+ Total processes =                       16
+ Active processes=                       16
+ Mop/s total     =                  7552.85
+ Mop/s/process   =                   472.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   278.49
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5207.08
+ Mop/s/process   =                    81.36
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   281.79
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5145.99
+ Mop/s/process   =                    80.41
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   277.84
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5219.11
+ Mop/s/process   =                    81.55
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   279.57
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5186.92
+ Mop/s/process   =                    81.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   281.77
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5146.33
+ Mop/s/process   =                    80.41
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   276.08
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5252.41
+ Mop/s/process   =                    82.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   272.98
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5312.07
+ Mop/s/process   =                    83.00
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   280.78
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5164.59
+ Mop/s/process   =                    80.70
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   272.62
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5319.04
+ Mop/s/process   =                    83.11
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   276.64
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5241.89
+ Mop/s/process   =                    81.90
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   286.57
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5060.20
+ Mop/s/process   =                    79.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   281.65
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5148.57
+ Mop/s/process   =                    80.45
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   277.35
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5228.38
+ Mop/s/process   =                    81.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   280.96
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5161.16
+ Mop/s/process   =                    80.64
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   271.93
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5332.67
+ Mop/s/process   =                    83.32
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   276.61
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5242.46
+ Mop/s/process   =                    81.91
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   278.54
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5206.04
+ Mop/s/process   =                    81.34
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   274.97
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5273.72
+ Mop/s/process   =                    82.40
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   280.69
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5166.13
+ Mop/s/process   =                    80.72
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   277.50
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5225.68
+ Mop/s/process   =                    81.65
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   281.32
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5154.69
+ Mop/s/process   =                    80.54
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   277.90
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5218.08
+ Mop/s/process   =                    81.53
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   273.27
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5306.55
+ Mop/s/process   =                    82.91
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   276.90
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5236.87
+ Mop/s/process   =                    81.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   282.64
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5130.47
+ Mop/s/process   =                    80.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   272.73
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5316.98
+ Mop/s/process   =                    83.08
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   278.63
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5204.48
+ Mop/s/process   =                    81.32
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   280.93
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5161.79
+ Mop/s/process   =                    80.65
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   278.00
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5216.17
+ Mop/s/process   =                    81.50
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   275.26
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5268.12
+ Mop/s/process   =                    82.31
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   279.19
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5193.99
+ Mop/s/process   =                    81.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   279.95
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5179.85
+ Mop/s/process   =                    80.94
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   279.54
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5187.54
+ Mop/s/process   =                    81.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   274.44
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5283.83
+ Mop/s/process   =                    82.56
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   279.36
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5190.88
+ Mop/s/process   =                    81.11
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   271.78
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5335.62
+ Mop/s/process   =                    83.37
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   273.62
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5299.78
+ Mop/s/process   =                    82.81
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   280.73
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5165.54
+ Mop/s/process   =                    80.71
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   283.98
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5106.44
+ Mop/s/process   =                    79.79
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162  (class C)
+ Iterations:  400    dt:   0.0006700
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7074390424459E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4574028155879E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3347964516885E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1357487825406E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3659959296699E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1431514486042E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1700650919857E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3906847289379E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7268696464410E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                   277.71
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                  5221.62
+ Mop/s/process   =                    81.59
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.1
+ Compile date    =              04 Dec 2020
+
+ Compile options:
+    MPIFC        = mpifort
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
