@@ -6,8 +6,7 @@
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
 
-This repository has the experiments for *The International Conference
-On Computational Science and its Applications (ICCSA 2020) paper.* Below
+This repository has the experiments for the new paper. Below
 are the files and folders, along with the analysis environment. More
 details on how to reproduce the experiments are in [[LabBook.org]].
 
@@ -20,9 +19,8 @@ details on how to reproduce the experiments are in [[LabBook.org]].
 
 
 * Folders and Files Description
-- [[R]] - This folder has all the graphics with the results.
-- [[RESULTS]] - Here are seven individual folder, each one representing a
-  number of NICs and hash policy, with their corresponding
+- [[RESULTS]] - Here are individual folders, each one representing a
+  number of NICs and aggregation mode, with their corresponding
   results. Inside these folders are the logs and machine files used.
 - [[SH]] - In this folder are shell scripts used to perform the
   evaluation.
